@@ -1,0 +1,25 @@
+# Python
+*.pyc
+__pycache__/
+
+# Patcher runtime backups
+.turkce_yama_backup/
+
+# Local comparison/source folders
+_original/
+_renewed/
+Orijinal/
+Yenilenmiş/
+
+# Archives and executable game files
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

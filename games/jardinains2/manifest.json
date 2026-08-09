@@ -1,0 +1,61 @@
+{
+  "id": "jardinains2",
+  "display_name": "Jardinains 2!",
+  "version": "1.0.0",
+  "anchor": {
+    "path": "jardinains.exe",
+    "sha256": "f496b3b7a83b1e54012ec0d68d662c7b609c55d0871dc0a022660912d2dd28bc"
+  },
+  "patches": [
+    {
+      "patch": "patches/data__Jardinains2.ttf.pdelta.gz",
+      "source": "data/Jardinains2.ttf",
+      "target": "data/Jardinains2.ttf",
+      "source_sha256": "973f59ea488268bef4ca73c89c5f83c746882fe237dd1af21c4109757d22b9ee",
+      "target_sha256": "c0941ec458c6facd1bce5924f292a4e601e1638b8a7419defd4892f29e5690d2",
+      "source_size": 33612,
+      "target_size": 32972
+    },
+    {
+      "patch": "patches/data__strings.xml.pdelta.gz",
+      "source": "data/strings.xml",
+      "target": "data/strings.xml",
+      "source_sha256": "9ed796d1e4d289000d32991b5fede45ab546fe5c598bf4596bb43aef6c8faf5f",
+      "target_sha256": "97dcfd16cc9854b6995652aad815474b2749e27187a30279a01a298225517b4c",
+      "source_size": 25945,
+      "target_size": 27679
+    },
+    {
+      "patch": "patches/help__index.html.pdelta.gz",
+      "source": "help/index.html",
+      "target": "help/index.html",
+      "source_sha256": "67b83b0dcab0f60a4edc052edf48709834549e949d6c5160d9754aa5130dfdde",
+      "target_sha256": "215aa93c0deb966955278abc8d24a56dc7ea1e66e8d9e336842da4526c2c4706",
+      "source_size": 17680,
+      "target_size": 10680
+    }
+  ],
+  "text_edits": [
+    {
+      "path": "data/default_prefs.xml",
+      "encoding": "utf-8",
+      "pattern": "<language>[^<]*</language>",
+      "replacement": "<language>tr</language>",
+      "description": "Varsayılan dili Türkçe yapar; çözünürlük/ses/performans ayarlarını değiştirmez."
+    },
+    {
+      "path": "data/prefs.xml",
+      "encoding": "utf-8",
+      "pattern": "<language>[^<]*</language>",
+      "replacement": "<language>tr</language>",
+      "description": "Mevcut profilde yalnızca dili Türkçe yapar; diğer tercihleri korur."
+    }
+  ],
+  "excluded_from_source_comparison": [
+    "installer/uninstaller relocations",
+    "internet shortcut",
+    "AppleDouble metadata files",
+    "extra icon copies",
+    "resolution/audio/performance preference changes"
+  ]
+}

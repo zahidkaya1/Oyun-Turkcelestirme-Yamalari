@@ -1,0 +1,152 @@
+{
+  "id": "supercow",
+  "display_name": "SuperCow",
+  "version": "1.0.0",
+  "anchor": {
+    "path": "engine.exe",
+    "sha256": "7a25b38451f03eb7d46f68a1d3a0b47bfdf2a1ead0e89218f0d7f7a0aa9439b9"
+  },
+  "patches": [
+    {
+      "patch": "patches/engine.exe.pdelta.gz",
+      "source": "engine.exe",
+      "target": "engine.exe",
+      "source_sha256": "7a25b38451f03eb7d46f68a1d3a0b47bfdf2a1ead0e89218f0d7f7a0aa9439b9",
+      "target_sha256": "2ea757162b50d381c1469ff7159b91410e4b43021cfa7827d15e9c6015e43823",
+      "source_size": 901120,
+      "target_size": 901120
+    },
+    {
+      "patch": "patches/data__gamemap__mapstagemark0.tga.pdelta.gz",
+      "source": "data/gamemap/mapstagemark0.tga",
+      "target": "data/gamemap/mapstagemark0.tga",
+      "source_sha256": "e73d94e00906777a54733a494c65fe840cda7c0dfb759810873ba0c348788b90",
+      "target_sha256": "05e64494969d6f5e093db2b6574fa22080b79798c43bc9f19f033835220f322e",
+      "source_size": 65580,
+      "target_size": 65580
+    },
+    {
+      "patch": "patches/data__ui__keyhelp.tga.pdelta.gz",
+      "source": "data/ui/keyhelp.tga",
+      "target": "data/ui/keyhelp.tga",
+      "source_sha256": "051cafcb700e46e1ac130386884ebc12550322934a5dcb6086262eadbea1be85",
+      "target_sha256": "eff85458ea18f808e63c03b4108fa511fb9c3666b92bb1ae701c92d9ff6ba129",
+      "source_size": 262188,
+      "target_size": 262188
+    },
+    {
+      "patch": "patches/data__levelobjs___a_clothes6.jpg.pdelta.gz",
+      "source": "data/levelobjs/_a_clothes6.jpg",
+      "target": "data/levelobjs/_a_clothes6.jpg",
+      "source_sha256": "3415abb3b1680aac68fdee87562e67649fa576edfe7b83e3c0eea3557c3ce581",
+      "target_sha256": "e644fefd09967e2f66f8b5b89fbaa1888f78d01422949aefaa66abce148c8765",
+      "source_size": 10968,
+      "target_size": 5567
+    },
+    {
+      "patch": "patches/data__trophies___a_tr11.jpg.pdelta.gz",
+      "source": "data/trophies/_a_tr11.jpg",
+      "target": "data/trophies/_a_tr11.jpg",
+      "source_sha256": "e2d3bf6bb724df0aba7064ff5e324fbd4c93eb9576dd72f6461a8706bf6a1a78",
+      "target_sha256": "d064f51f8969759f32f38bd92c223081b10e55dd74091b2bcc5e4d525f8b1ac8",
+      "source_size": 6304,
+      "target_size": 4806
+    },
+    {
+      "patch": "patches/data__trophies__trophy.cfg.pdelta.gz",
+      "source": "data/trophies/trophy.cfg",
+      "target": "data/trophies/trophy.cfg",
+      "source_sha256": "acbcc3d942569fd7dcc71235f83286429b7b0bcfaaa6999f69e2396624b7aa99",
+      "target_sha256": "f58a56b70507402a02b9577d8edb238c539cf61a261a2e05aed2eed5dc6085ee",
+      "source_size": 1196,
+      "target_size": 1196
+    },
+    {
+      "patch": "patches/data__trophy.txt.pdelta.gz",
+      "source": "data/trophy.txt",
+      "target": "data/trophy.txt",
+      "source_sha256": "03840e3e9cf4748aca8740632e47e8f843845d91e868aa6112896a5f2a4b57bb",
+      "target_sha256": "e1c03bb895181032afc47318d6f958f1984de5ae58ef1341cce9db4e7fa964d6",
+      "source_size": 1143,
+      "target_size": 1106
+    },
+    {
+      "patch": "patches/tr__comics.txt.pdelta.gz",
+      "source": "data/txt/us/comics.txt",
+      "target": "data/txt/tr/comics.txt",
+      "source_sha256": "6710292beceb2e10f07045af1ffce27cb7921f15fe9fa75e70d5b3d8e8fb526d",
+      "target_sha256": "03387dc1c8cd1cfd8fd417c8963693fe8b9930ca25a4883f84c51bce431a7503",
+      "source_size": 29640,
+      "target_size": 28234
+    },
+    {
+      "patch": "patches/tr__credits.txt.pdelta.gz",
+      "source": "data/txt/us/credits.txt",
+      "target": "data/txt/tr/credits.txt",
+      "source_sha256": "8330df8c42534a24fdf653ba0710d519fdc61044f20a569f53ad66bc9adcabc4",
+      "target_sha256": "683bc96ec76420c5dc358838319afc7a92c53eedc6d8884eee07fea36ab5771a",
+      "source_size": 5064,
+      "target_size": 5012
+    },
+    {
+      "patch": "patches/tr__diary.txt.pdelta.gz",
+      "source": "data/txt/us/diary.txt",
+      "target": "data/txt/tr/diary.txt",
+      "source_sha256": "c29aaec155c74932f0a259d2a8e436e4737815166dd2fabca5450cda8de1d9eb",
+      "target_sha256": "fab123c4d864fadca7b2d7d9926247b3360e056364659b8a06d51acdeece332e",
+      "source_size": 18748,
+      "target_size": 18152
+    },
+    {
+      "patch": "patches/tr__introcomics.txt.pdelta.gz",
+      "source": "data/txt/us/introcomics.txt",
+      "target": "data/txt/tr/introcomics.txt",
+      "source_sha256": "5832223dc0699b04f99719ffec6515ef77a7bcb9c924e2d911e8eb7e2c1a64c0",
+      "target_sha256": "02737de8fa854f837b887ac1afd00254b59bb4be0c87e7766356c3f0bf64adfc",
+      "source_size": 972,
+      "target_size": 884
+    },
+    {
+      "patch": "patches/tr__menutext.txt.pdelta.gz",
+      "source": "data/txt/us/menutext.txt",
+      "target": "data/txt/tr/menutext.txt",
+      "source_sha256": "a0d6a4ede8f02566955a9a9e9d8ab4668089b988753af9df48e07fc1aea30b72",
+      "target_sha256": "4a516fe28ddeaf6dafcf6fd24538dc9938f2661976b5b977af1535c488fd7520",
+      "source_size": 1742,
+      "target_size": 1852
+    },
+    {
+      "patch": "patches/tr__strings.txt.pdelta.gz",
+      "source": "data/txt/us/strings.txt",
+      "target": "data/txt/tr/strings.txt",
+      "source_sha256": "13b112ac03a96ea6406f9e2e0cca2049ddd719660dec0644c14e664c237a4777",
+      "target_sha256": "e437adc65bda6728c6c1e56d9b56df6c58e04b25e0b1afe29849e96d57c719c4",
+      "source_size": 6322,
+      "target_size": 6256
+    },
+    {
+      "patch": "patches/tr__tips.txt.pdelta.gz",
+      "source": "data/txt/us/tips.txt",
+      "target": "data/txt/tr/tips.txt",
+      "source_sha256": "2c6f9b16381a3877ba543cbc9d15a59c8c7d4371ab20c23587a812279ed77351",
+      "target_sha256": "ed5031fa0f016d59916ea8314ea05b02dcdc6823bc96a9e93f3a6c25090c96a3",
+      "source_size": 12378,
+      "target_size": 11286
+    }
+  ],
+  "text_edits": [
+    {
+      "path": "data/settings.txt",
+      "encoding": "utf-8",
+      "pattern": "(?m)^lang=[^\r\n]*",
+      "replacement": "lang=tr",
+      "description": "Oyunun dilini Türkçe olarak seçer."
+    }
+  ],
+  "excluded_from_source_comparison": [
+    "data/gamelog.log",
+    "installer/uninstaller relocations",
+    "internet shortcuts",
+    "extra icon copies"
+  ]
+}
