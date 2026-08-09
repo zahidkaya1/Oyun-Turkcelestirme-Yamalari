@@ -23,3 +23,6 @@ Yenilenmiş/
 Thumbs.db
 .vscode/
 .idea/
+build/
+dist/
+*.spec
