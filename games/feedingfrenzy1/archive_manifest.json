@@ -1,0 +1,532 @@
+{
+  "game": "Feeding Frenzy",
+  "version": "5.7.18.1",
+  "patch_version": "0.3.0",
+  "archive": "FFArchive.saf",
+  "original_archive_sha256": "226df2f4d7bfae7be98d5e339a85996015b5b421589e543b8339862db1b5de81",
+  "target_archive_sha256": "85d86f6ce74b081c5f9de5782fd16f9e9a375eec719290482f3f11acd09b6475",
+  "files": [
+    {
+      "path": "config/highscoreentry.xml",
+      "patch": "config__highscoreentry.xml.pdelta.gz",
+      "source_sha256": "10dd02bcaee3aab703f1814470b3dfa030f93aba0cac0d3405eb6966fb70369d",
+      "target_sha256": "1ec7904f7859cd54800faafdbac03e2813117bc11fbd394713f923f39a53f9cb"
+    },
+    {
+      "path": "config/highscore.xml",
+      "patch": "config__highscore.xml.pdelta.gz",
+      "source_sha256": "4da2d55ebf593d4f0fe4c7ef4bb047fda0f624588d4f387dbe0ee22c060a4b38",
+      "target_sha256": "d73528ef0eebf8204633e4f940c3deaa3d524b5c0f508c68e7e061b5f8297874"
+    },
+    {
+      "path": "config/menusample.xml",
+      "patch": "config__menusample.xml.pdelta.gz",
+      "source_sha256": "196a7b5a15bdd3452c4ff5371103fbf859872cf0f7a132a713291d31ee16260f",
+      "target_sha256": "51cbd1de3cbade052912510f79e6cbc83ba170dc6699755c51308519a0f6637b"
+    },
+    {
+      "path": "config/credits.xml",
+      "patch": "config__credits.xml.pdelta.gz",
+      "source_sha256": "f6408777ddc2c27e37ecfd32e7c63901739735bdc8ec818190045340bb25cb54",
+      "target_sha256": "4db96765fd08379fc655cf570da481be07c6ada8f6faadd4ce75fce7e1159bd9"
+    },
+    {
+      "path": "config/missingmp3.xml",
+      "patch": "config__missingmp3.xml.pdelta.gz",
+      "source_sha256": "9c2c8eb6e6a260d9e5c3010037010c6d5801ce39fb0a6ee18e6eeb28ce43b9b9",
+      "target_sha256": "e7607c1e72ab55450dff2cc548a9d59d20e4bd1e0e69e7c2f4808215be6e5385"
+    },
+    {
+      "path": "config/pausescreen.xml",
+      "patch": "config__pausescreen.xml.pdelta.gz",
+      "source_sha256": "154e440e9f574313449d77ec6ad688c216974a5f01af2abe46a5e5df88b80791",
+      "target_sha256": "94e11de263b819e15a410712b5f1aee9998a97c62db2348a3596a5e446d549d5"
+    },
+    {
+      "path": "config/loadscreen.xml",
+      "patch": "config__loadscreen.xml.pdelta.gz",
+      "source_sha256": "64a6fc9a387bea37827efe766c58d3819b4c21fe62b4a4ff700429aca68956ae",
+      "target_sha256": "3cd6630d22b7e18c04f53c2ccbc0905b63a94d0b453abd84dfe836ab662c6a0c"
+    },
+    {
+      "path": "config/missingadpcm.xml",
+      "patch": "config__missingadpcm.xml.pdelta.gz",
+      "source_sha256": "4fa27cbb62c2837b5e98a9ddfa8d639b38310a68d7af2a74717ae44dc6d1c687",
+      "target_sha256": "54582d9605c25540fd71beae9699947f39554222b33c47fb4a8bdff3d5ac8e96"
+    },
+    {
+      "path": "config/missingbothcodecs.xml",
+      "patch": "config__missingbothcodecs.xml.pdelta.gz",
+      "source_sha256": "45e73d014d91bfd7bd318f6c0e2ac229af52cc0fb8bf98d4690d602e1331d45a",
+      "target_sha256": "775e497c93eae61762ed801d71507eb3bdec315a0eea8932c8ff4ec7ecd11147"
+    },
+    {
+      "path": "config/optionscreen.xml",
+      "patch": "config__optionscreen.xml.pdelta.gz",
+      "source_sha256": "ec7fe2486c29c13f9f1d8d39ebd9595dfd5aaaf7ee0ec88b7cac67eb1e8aab85",
+      "target_sha256": "8e32bf36ce907fcd0ef26c35ed52243ced34c584fcf86d74f2bda8a1ebd7787a"
+    },
+    {
+      "path": "config/stagechooser.xml",
+      "patch": "config__stagechooser.xml.pdelta.gz",
+      "source_sha256": "83d592d1ee48901a55cf52107366d2ea66b56548c37a4ca49df3c4ca0a0015c9",
+      "target_sha256": "1f27fda829c675cfb5230884b86772fa75d0668a800440d262f9674b287347b2"
+    },
+    {
+      "path": "config/gamehud.xml",
+      "patch": "config__gamehud.xml.pdelta.gz",
+      "source_sha256": "643c80a714184363c2322208283319014bb3d8807cddc92abd85a65fa51e6451",
+      "target_sha256": "e720e2d216cdcd1d826459add732115cef9fbbd985dbefaee4dec383bf28d2a9"
+    },
+    {
+      "path": "config/gameover.xml",
+      "patch": "config__gameover.xml.pdelta.gz",
+      "source_sha256": "83b1841bc6f1062f0d99abae96cee20154f1406fbee1a6319dc0b88c5acfaffe",
+      "target_sha256": "a03d0440016788261f349a2a887c0b3d2105d641c3a02ecde2069fad270c3027"
+    },
+    {
+      "path": "config/maplayout.xml",
+      "patch": "config__maplayout.xml.pdelta.gz",
+      "source_sha256": "ff29c4872d2b2444a5c62c363a76e7db128fd9b8d07a5e7f1587e626488918b9",
+      "target_sha256": "0421fc9059e41ccf3a4a2bbfc9c73785560e8c1a899f3f43a095b6cb2a2c585e"
+    },
+    {
+      "path": "config/splats.xml",
+      "patch": "config__splats.xml.pdelta.gz",
+      "source_sha256": "8cde22d5d4b73bcf0c346f6c839205376420df68d69f04e5d58806a9d42c634c",
+      "target_sha256": "2ff9d14c188679532c43a46c93e317157517d3f8dbd8bc4a6dc5764887dca18a"
+    },
+    {
+      "path": "config/gameovercontinue.xml",
+      "patch": "config__gameovercontinue.xml.pdelta.gz",
+      "source_sha256": "a99461690e261b4c960d0f56c4b1a2b4055073d9d01d2c11fc484fbf9305e8f0",
+      "target_sha256": "36c4674ded6ea8563968a0199a95289c962f1752185c0ddfb04d10feca044971"
+    },
+    {
+      "path": "config/mainmenu.xml",
+      "patch": "config__mainmenu.xml.pdelta.gz",
+      "source_sha256": "354d97e08fe3eecdfd289ad8017b6d867feb404cc8b1e42c151e3ef0e0eddbc5",
+      "target_sha256": "5b2c39737ec1abab337341909b83f06d656a8d20bbe22ab66eecd6c0ed830c7d"
+    },
+    {
+      "path": "config/ssunlock.xml",
+      "patch": "config__ssunlock.xml.pdelta.gz",
+      "source_sha256": "3a5646eae046d74fa7290c4ac40b776adc103d0a18442978b7fd362394d765ba",
+      "target_sha256": "7e84cf67e11a79812b5ddc290a7279056fe07659a5c41d7e5c8a3677fc596925"
+    },
+    {
+      "path": "config/gamestrings.xml",
+      "patch": "config__gamestrings.xml.pdelta.gz",
+      "source_sha256": "2abb92fca166c878ad3ba3474974bfd4a13c49f1a39ab5c40ff6efa248436d5c",
+      "target_sha256": "e227580460a47cdb888ccbca40e6328ab5291f0a3881e78a3c6e737fe8cecfa8"
+    },
+    {
+      "path": "config/gamewon.xml",
+      "patch": "config__gamewon.xml.pdelta.gz",
+      "source_sha256": "48e1eb85cd4c516f28b5de8ed7c46f6102cc7a6f541e85f376d750fda3946a66",
+      "target_sha256": "56dee7e84558f9c5b45192a0f1ae7a0b851041ccab336b7834419f3b7e8eb66c"
+    },
+    {
+      "path": "resources/hud/hudfont.xml",
+      "patch": "resources__hud__hudfont.xml.pdelta.gz",
+      "source_sha256": "9433dd367f6ad319723149ff907c822878222da365253ed63ca5b405a8fc0c41",
+      "target_sha256": "30ca96348b9be3b38e78b4c135b06541c5ec484638072f645b086efbf719b9aa"
+    },
+    {
+      "path": "resources/hud/textfont.png",
+      "patch": "resources__hud__textfont.png.pdelta.gz",
+      "source_sha256": "db95e36e119a3600f48056cc86fa43d392c8678a0e8a188740b2f945c174b213",
+      "target_sha256": "5e88e775970894bde05d118291ac4bc468dfcb7a64dcd5bf35f61ecc4cbf568c"
+    },
+    {
+      "path": "resources/hud/textfont.xml",
+      "patch": "resources__hud__textfont.xml.pdelta.gz",
+      "source_sha256": "a5330ccfa9b90e2b6f333d99c966dcf19a0ef99f1c5e3a4de4f7315cd217c145",
+      "target_sha256": "529cbcd835cf372a09d666adddb1af6f554412c3b2ce93a342f768cff4184d14"
+    },
+    {
+      "path": "resources/hud/buttonfont.xml",
+      "patch": "resources__hud__buttonfont.xml.pdelta.gz",
+      "source_sha256": "6bd91cdc83e123fa965975053825c32a548f6d320c8280daae6a00dc088c926c",
+      "target_sha256": "be2f1710d9a94d6ede5fa50f5fd46c4f39e084657879c4302a40d1e35fc1fe94"
+    },
+    {
+      "path": "resources/hud/buttonfont.png",
+      "patch": "resources__hud__buttonfont.png.pdelta.gz",
+      "source_sha256": "ff953c87392488fadb6409fa2b73a3e4818ac2a35a6f878d6b8c4fa9d344330c",
+      "target_sha256": "7a9eca1ac7567854517c11937bc36f62a6f83addb541c15edbbf01074204d511"
+    },
+    {
+      "path": "resources/hud/hudfont.png",
+      "patch": "resources__hud__hudfont.png.pdelta.gz",
+      "source_sha256": "dc7b5947661bb98c713993b593fb98df148562937c6597bbc49dc768eba8a877",
+      "target_sha256": "a281cb9b71297b44e9a1e613e0ce5176bc55e3e2b92fa0353b48560ce8496d07"
+    },
+    {
+      "path": "resources/menus/menufont.xml",
+      "patch": "resources__menus__menufont.xml.pdelta.gz",
+      "source_sha256": "d1d38b7642874cacc9ef012796d1cb46f07d42ceec88b2749eb7849970b2245a",
+      "target_sha256": "a99457375092cb03eff7217c0b238a1d2e13be79db5382a680ae331dbc23aff4"
+    },
+    {
+      "path": "resources/menus/mainquitnormal.png",
+      "patch": "resources__menus__mainquitnormal.png.pdelta.gz",
+      "source_sha256": "1f737fc45f98f75674be0573de7504ad82b8b80ecfd3336569f0073d7623fb7d",
+      "target_sha256": "7d7a5f13a63ade9b920ca5b219d77a201bcfaea071a4a8ef3bf9e35aea0ad475"
+    },
+    {
+      "path": "resources/menus/infotext14.png",
+      "patch": "resources__menus__infotext14.png.pdelta.gz",
+      "source_sha256": "854748a2e2f598799054bac7f6db4df693111d6bcc94129aecc5e1dae29cd216",
+      "target_sha256": "ea9a2e890c8ec5b7ac0b2396468f132ecc68ea4cce0f700484113c66f1e92481"
+    },
+    {
+      "path": "resources/menus/mainoptionshigh.png",
+      "patch": "resources__menus__mainoptionshigh.png.pdelta.gz",
+      "source_sha256": "77588eeb47ab24321cd620113a1e33f04601692df3dcdae69a152bb3508084ee",
+      "target_sha256": "c891efe2d4b81961dab21c90f431a939b69c45fc9b17fce99fc6dcb27d8a19ae"
+    },
+    {
+      "path": "resources/menus/mainoptionsnormal.png",
+      "patch": "resources__menus__mainoptionsnormal.png.pdelta.gz",
+      "source_sha256": "fd97a4c2a6874008f020951fc2a019e09d332fcd40fed2da49438354d310bd3e",
+      "target_sha256": "340c2132dd4c85229b1bec8a4919d6d57a2bf1e352709c1ca1daa1664290f438"
+    },
+    {
+      "path": "resources/menus/mainhighscorenormal.png",
+      "patch": "resources__menus__mainhighscorenormal.png.pdelta.gz",
+      "source_sha256": "0a3c02d1d8ecade6ba46d9a529564bcf35dbe0ac4f33776eb7e74fcc41286409",
+      "target_sha256": "008a87e62c87ef579cadc6cca3eedd1a98ca7a9f56d2d737f64dd7176205697b"
+    },
+    {
+      "path": "resources/menus/mainnewhigh.png",
+      "patch": "resources__menus__mainnewhigh.png.pdelta.gz",
+      "source_sha256": "a3d736acea6a54b7d0bd7b365d689c927e875646e86f9622b917435e38086914",
+      "target_sha256": "2501349eb4c675d53ccbe6cf721eaaa31a7ae0dfe981d8e4b6fb67d2fe99504e"
+    },
+    {
+      "path": "resources/menus/maintimehigh.png",
+      "patch": "resources__menus__maintimehigh.png.pdelta.gz",
+      "source_sha256": "e0067a38f479f4404fe291b2fe019d2cf7093f5d99e21edf09f5c944e611819b",
+      "target_sha256": "4fae68ee7d03c4dce4e76dba6c2bc65fdcb3b551267f087845298f8fbf19dce1"
+    },
+    {
+      "path": "resources/menus/mainnewnormal.png",
+      "patch": "resources__menus__mainnewnormal.png.pdelta.gz",
+      "source_sha256": "334b6e61b10d39b0c04b2801b385b2c0ebbcad884bfb05c1532a58251478aacc",
+      "target_sha256": "548ab872ae1ba744dbfeb4d802aed59e768ee308f7be2960f8c8ed75ac710df8"
+    },
+    {
+      "path": "resources/menus/mainquithigh.png",
+      "patch": "resources__menus__mainquithigh.png.pdelta.gz",
+      "source_sha256": "b0215f9a3e6c892fbb779a6f819deea8d7dfeb1bfb5c444b7ebb104260493389",
+      "target_sha256": "07a351da858177bdd0509e99d6831c4391074f3f2c8b3db7e3d10591cea6fcc8"
+    },
+    {
+      "path": "resources/menus/mainhighscorehigh.png",
+      "patch": "resources__menus__mainhighscorehigh.png.pdelta.gz",
+      "source_sha256": "578fa0e053c4df20cf859eb9ad0210da6f3a1a76a3bf99197e7829ddae69fe2c",
+      "target_sha256": "9b99189c199c7f470c9ff03140527d0f94d705ffb26fc0691851f5e58048d1b9"
+    },
+    {
+      "path": "resources/menus/maintimenormal.png",
+      "patch": "resources__menus__maintimenormal.png.pdelta.gz",
+      "source_sha256": "76de6b39e8d3d9496624ed35819cb9bf1479930dfbd491ef31e238bc6b9d74fd",
+      "target_sha256": "c5b66c21dcfc9675ac7065afc1ac5d4c8cacd7cff40bc4b9d9da30ac57058f45"
+    },
+    {
+      "path": "resources/menus/menufont.png",
+      "patch": "resources__menus__menufont.png.pdelta.gz",
+      "source_sha256": "640df33e38c8cae4743a6704d44cd8a267477a61ee366263d2a1e06b39ee7105",
+      "target_sha256": "479611bf2d5db619d21fb896cbcecb7cbe83f67b183a0b4bffab0efa85a2e956"
+    },
+    {
+      "path": "resources/menus/infotext14.xml",
+      "patch": "resources__menus__infotext14.xml.pdelta.gz",
+      "source_sha256": "65c695c62e48a3978de97324091b81ad156c085c6d2517458af372e0dd7ed06c",
+      "target_sha256": "84aff4636a9a8916eaba4d93da0a4b4221414c37c68cbb2e48e3f09ae76e793c"
+    },
+    {
+      "path": "resources/backdrops/ss_bigridge/fglayout.xml",
+      "patch": "resources__backdrops__ss_bigridge__fglayout.xml.pdelta.gz",
+      "source_sha256": "4dc57437e21cbb3a3afdb57a5029c156c6c833d077a617cf3c1920332b57ff1a",
+      "target_sha256": "5512feeed53c0077f00d579bb305070d408be323dff92b57030c678f8a909c26"
+    },
+    {
+      "path": "config/stages/stagecompletebase.xml",
+      "patch": "config__stages__stagecompletebase.xml.pdelta.gz",
+      "source_sha256": "fa80f7323471ef3e11c5a87dabaaada13cf3928cedde0ffe9f4dd8475781f67a",
+      "target_sha256": "5517e25a4a30f86665777beb957c9f824361c62e6b633687f0ed0e3a742812d9"
+    },
+    {
+      "path": "config/stages/stagestartbase.xml",
+      "patch": "config__stages__stagestartbase.xml.pdelta.gz",
+      "source_sha256": "1809ebe7a638277f41720f7c67608603d4a2ec97eba6ac61c39773fdb3173d5b",
+      "target_sha256": "aa2947a5b27295beca04d6c44af55d5a18c38b582abf4dbfd1e0c7672362c678"
+    },
+    {
+      "path": "config/tooltips/funfacts.xml",
+      "patch": "config__tooltips__funfacts.xml.pdelta.gz",
+      "source_sha256": "8384296b361ea2bfdaa868812f63e0002fd07cfb5b8cde65134af7b0845f8eb5",
+      "target_sha256": "7b6eef4993e284ea98092779f8eda468464f701604dec78e94cd0804d67de0cc"
+    },
+    {
+      "path": "config/stages/meltingpot/startscreen.xml",
+      "patch": "config__stages__meltingpot__startscreen.xml.pdelta.gz",
+      "source_sha256": "7ed9701ff735a8e8ed297dcd5f22b434ab50e70ebc4a2eb402430325b4b8913f",
+      "target_sha256": "9956ffedab98121ddc2a887fa7748f097dce4ff31ec85212386b93e449567fdc"
+    },
+    {
+      "path": "config/stages/crazyjellies/startscreen.xml",
+      "patch": "config__stages__crazyjellies__startscreen.xml.pdelta.gz",
+      "source_sha256": "15a3b998be520611d1b0ad4e2d0646a0591477d2a33b1d983d69f222ee9ef637",
+      "target_sha256": "0f9f9285bab1114c7baacb21b7e7655041791720f9fb108d9e3a51777c36ac3e"
+    },
+    {
+      "path": "config/stages/hiddentreasure/startscreen.xml",
+      "patch": "config__stages__hiddentreasure__startscreen.xml.pdelta.gz",
+      "source_sha256": "5938e5b9fb14dd3f0b89979f79dc0e85c6757b0d202e4cf7fcab9345ab7302f3",
+      "target_sha256": "25808385a0d5c048839e1ce4d70564f5bf8f52cfc08a348bcd7ce39723b17784"
+    },
+    {
+      "path": "config/stages/sucksucksuckboom/startscreen.xml",
+      "patch": "config__stages__sucksucksuckboom__startscreen.xml.pdelta.gz",
+      "source_sha256": "a028575c10fc40eb7ec10ea8b995197d414ebff85898f41fb71b5275b5a65967",
+      "target_sha256": "36d828c7283d4f1920886672bebb9888454ed099c2a90c6c995e6735994df088"
+    },
+    {
+      "path": "config/stages/bubblebubble/startscreen.xml",
+      "patch": "config__stages__bubblebubble__startscreen.xml.pdelta.gz",
+      "source_sha256": "56a393b914ff3ff106b1b5c2163206e54a08a545ab4d54c656b5ca04646269ba",
+      "target_sha256": "02466b6523ad1d6aaeca0f0ffb0a5016eab29af1c43f4c8ce806eb10256a0d6d"
+    },
+    {
+      "path": "config/stages/hearmeroar/startscreen.xml",
+      "patch": "config__stages__hearmeroar__startscreen.xml.pdelta.gz",
+      "source_sha256": "5a9c8de458e6a58d943fa3e7ce9171e22bad32095bfaae76e1a06336fc4a0272",
+      "target_sha256": "38fd69850fae23395754a72a4e7a03e5389c4baa1534f687dd44fc781d534465"
+    },
+    {
+      "path": "config/stages/rushhour/startscreen.xml",
+      "patch": "config__stages__rushhour__startscreen.xml.pdelta.gz",
+      "source_sha256": "c7e4369e5f68ce9a22e0ad414e4d5bd9b89163f20cafbe03368b3b0091e0f427",
+      "target_sha256": "9a47b0d55192a3d97c81742cbf75df8e037bfbf210b8e780758cb1c02abb92c2"
+    },
+    {
+      "path": "config/stages/playingchicken/completescreen.xml",
+      "patch": "config__stages__playingchicken__completescreen.xml.pdelta.gz",
+      "source_sha256": "0123346452f901958175ef6d063707bb8a860e8d52ccdd309e19a279582279ac",
+      "target_sha256": "09ca66b2ec52ebe5e181ad273e3f17f7dfbcd1339392a3ac98d322c64784a8a9"
+    },
+    {
+      "path": "config/stages/playingchicken/startscreen.xml",
+      "patch": "config__stages__playingchicken__startscreen.xml.pdelta.gz",
+      "source_sha256": "45767fa91793b748a524c0d086d008c9ff1f844087c4ad3b2e37a459dfe61c63",
+      "target_sha256": "a032bed25aa8a5945a0d24ba6a47864d3fd6b56f2d4f39e5540dd30a4bcc1ad7"
+    },
+    {
+      "path": "config/stages/barracudabuffet/startscreen.xml",
+      "patch": "config__stages__barracudabuffet__startscreen.xml.pdelta.gz",
+      "source_sha256": "0694313700aae3064fc68c0e2bb0abb64ae4a3df9e92057eb76c2a4d57ee8455",
+      "target_sha256": "fc8a3cd53359e2b3beedfdc32eafdcd680840a453af49fe40a7726f717c05d09"
+    },
+    {
+      "path": "config/stages/schoolsout/startscreen.xml",
+      "patch": "config__stages__schoolsout__startscreen.xml.pdelta.gz",
+      "source_sha256": "1be3e8dddbd9847a59b6d5613a8bfa1e8b540b3ea3c1ce5b87706ef106de03e1",
+      "target_sha256": "a32c6f4457576e002da930d9e35a21e38f06e49845ea731627cbc2aae923b889"
+    },
+    {
+      "path": "config/stages/fishsoup/startscreen.xml",
+      "patch": "config__stages__fishsoup__startscreen.xml.pdelta.gz",
+      "source_sha256": "1e61eff7e277bb46a2e2949acbc141b0fb0c708bc826e380d51fd8285a943579",
+      "target_sha256": "d63eea146a62c5686e2bacc395fd45dcecb6630c8cf8c031f5ac75dfa3b8a784"
+    },
+    {
+      "path": "config/stages/killerinstinct/startscreen.xml",
+      "patch": "config__stages__killerinstinct__startscreen.xml.pdelta.gz",
+      "source_sha256": "605b3ead29058914c2bb17fae45c94921aa8c2f47300c4988ee63673dc8607b0",
+      "target_sha256": "86509bb6d34ffffe019c22eeec904327cc06cccd69fb3e8c652b826803d469bd"
+    },
+    {
+      "path": "config/stages/watchwhatyoueat/startscreen.xml",
+      "patch": "config__stages__watchwhatyoueat__startscreen.xml.pdelta.gz",
+      "source_sha256": "8a81168821774e309d4e16b8f1d10ca86f88d3d328e9bfd7ee0cf857541f5b11",
+      "target_sha256": "b850ca60ec49e921dc7ac8f6b364d9bc256eaf2a1a56faf06e9d572e754e8e7d"
+    },
+    {
+      "path": "config/stages/sharkking/startscreen.xml",
+      "patch": "config__stages__sharkking__startscreen.xml.pdelta.gz",
+      "source_sha256": "36ef409a1f151646ac146566e4a1256a864ccd784d22c18c731781e525c34f1e",
+      "target_sha256": "6618a29e166368e77816e1c772673475463006fcdaf813f138f26337a0f9deb9"
+    },
+    {
+      "path": "config/stages/feedingfrenzy/startscreen.xml",
+      "patch": "config__stages__feedingfrenzy__startscreen.xml.pdelta.gz",
+      "source_sha256": "f31224a64ab1b50fd05654fbfa0d2a31453ada9a06c5f42ed068497071160f7a",
+      "target_sha256": "0280e3bb91fba895b603505932c4f183d55f0d706aa3f82fec808aef931a9cb3"
+    },
+    {
+      "path": "config/stages/sharkreef/startscreen.xml",
+      "patch": "config__stages__sharkreef__startscreen.xml.pdelta.gz",
+      "source_sha256": "272e451d299277df0f313b95c6a3896c65fe4b8972ca13b72654262f2df6fb51",
+      "target_sha256": "76513618acc8b49a24c93416e1335b0242842927b53c2b1fcd616b0a4a23de3e"
+    },
+    {
+      "path": "config/stages/boom/startscreen.xml",
+      "patch": "config__stages__boom__startscreen.xml.pdelta.gz",
+      "source_sha256": "c7ef094aafbf7dc33a3cf652fc4ee8936dc3ccb0735c8cb3efaba43d4b16cc32",
+      "target_sha256": "518bf5e909fd53e4907877d53738392d887b9a16703e72bf6bf29d0a7aa424a3"
+    },
+    {
+      "path": "config/stages/barracuda/startscreen.xml",
+      "patch": "config__stages__barracuda__startscreen.xml.pdelta.gz",
+      "source_sha256": "79837d29cddfd7fa1f5b38bc2f71f6f2ca3e476b33c908468eac2c8b68953e94",
+      "target_sha256": "e57e587b20402c588191363678ee54ee5fce7175380906c660d47ca2b3444c82"
+    },
+    {
+      "path": "config/stages/needforspeed/startscreen.xml",
+      "patch": "config__stages__needforspeed__startscreen.xml.pdelta.gz",
+      "source_sha256": "5c8f959cd40cead8af7fc53aeb82fad69bb87cd22140d03b55c0ec62cc69e224",
+      "target_sha256": "c5094afa3c3580c373fa90ebd85e2360ebd16f8aa80298c6a0634b50bf14f74e"
+    },
+    {
+      "path": "config/stages/jellyjam/startscreen.xml",
+      "patch": "config__stages__jellyjam__startscreen.xml.pdelta.gz",
+      "source_sha256": "ee78c43a77c5c26aa096c346061413e29400337297f5aab00d81508ebfe09053",
+      "target_sha256": "4adc9f4bb310b00b7a2f3a5cf6391234a81c0461311cea53351e09d26d87db1f"
+    },
+    {
+      "path": "config/stages/gasbag/startscreen.xml",
+      "patch": "config__stages__gasbag__startscreen.xml.pdelta.gz",
+      "source_sha256": "d9f6325a01178d1bf2b9e81bca18949c0d1e161996ddaf34e2596374c001700f",
+      "target_sha256": "61f6edcc01e10b7fe03f031e5433ac190f0c739454202263178a3eff852876db"
+    },
+    {
+      "path": "config/stages/fishinbarrel/startscreen.xml",
+      "patch": "config__stages__fishinbarrel__startscreen.xml.pdelta.gz",
+      "source_sha256": "3f700366aee5f2aae846b4f6245fe6e012806d14558289bbd483583a8920484a",
+      "target_sha256": "7b114cc1562b2bc361a822b65f7063ea607cb8ec6f8a195fba768ffe1ceda98a"
+    },
+    {
+      "path": "config/stages/smallfishsmallpond/startscreen.xml",
+      "patch": "config__stages__smallfishsmallpond__startscreen.xml.pdelta.gz",
+      "source_sha256": "0e8eec63d58229f76881b60948c891ee0da2fa64bb3498ddbd12573d9dc1d0ab",
+      "target_sha256": "527dad154d78cee56345c87808ab5730e7f82b8ee102cb675f5defbfcb6929a6"
+    },
+    {
+      "path": "config/stages/lovecanal/startscreen.xml",
+      "patch": "config__stages__lovecanal__startscreen.xml.pdelta.gz",
+      "source_sha256": "c4c6da1e035698160f236417e4680752cfa6a8a8855dc0fef79da95445c75ba0",
+      "target_sha256": "1223a344558f31ef188a02dda770b74be581f31802c7108a6268b8a45f05259c"
+    },
+    {
+      "path": "config/stages/donteatthegreenfish/startscreen.xml",
+      "patch": "config__stages__donteatthegreenfish__startscreen.xml.pdelta.gz",
+      "source_sha256": "92103f4924b375031f9b0125af05950b3ca7bf22e15832ae9b55f33051e4294b",
+      "target_sha256": "bc30d4b4fdf918c4c81a4f67161b5d127334ef4665cffed642fb35e8bc09d80b"
+    },
+    {
+      "path": "config/stages/yospike/startscreen.xml",
+      "patch": "config__stages__yospike__startscreen.xml.pdelta.gz",
+      "source_sha256": "71e5ad85aeba3ee51ca1676772a1259e81d357cc61cc051179bb5ed52f50df8e",
+      "target_sha256": "514d34a96840940fa6b0bb43b9be4a9d49619931cc12d3eabd76314177813312"
+    },
+    {
+      "path": "config/stages/sixdegrees/startscreen.xml",
+      "patch": "config__stages__sixdegrees__startscreen.xml.pdelta.gz",
+      "source_sha256": "430d84dc27d3cb6cc380468c60dc761efa089c08840087fa7803cc74dd9deab3",
+      "target_sha256": "3bd0441e781ecca53077adf15e52d2dd6409e41fae892b6fe67e2f627c9d9b7b"
+    },
+    {
+      "path": "config/stages/trickytreasure/startscreen.xml",
+      "patch": "config__stages__trickytreasure__startscreen.xml.pdelta.gz",
+      "source_sha256": "5903520eef2a47bfbc170a5cf5de2a1b36b8e2ece29cc135c10375ac4bb3b322",
+      "target_sha256": "730f218b94a9779ad001ed0892a8ec9cc856e3b4f2fcd7f5e7f73f7df05f79ef"
+    },
+    {
+      "path": "config/stages/tunasashimi/startscreen.xml",
+      "patch": "config__stages__tunasashimi__startscreen.xml.pdelta.gz",
+      "source_sha256": "e577f68c57b81f8684b0ffff9b7ea5a72f8abaf8a0be9f30b37518a13e9cddcc",
+      "target_sha256": "29b9114cfc765e2288892f47f6c58a5f49ba27661ddd50d4263deba8ba75d494"
+    },
+    {
+      "path": "config/stages/midwaycrossing/startscreen.xml",
+      "patch": "config__stages__midwaycrossing__startscreen.xml.pdelta.gz",
+      "source_sha256": "0508da3b2b9c4aaa05bd738958dcc91be6641b5172e0b79a28d801e45415909f",
+      "target_sha256": "335185fd4c9a0c8a553d9b76be77b679abe6b5dc84a1fcdf99861140f3d5f4ba"
+    },
+    {
+      "path": "config/stages/eatingonrun/startscreen.xml",
+      "patch": "config__stages__eatingonrun__startscreen.xml.pdelta.gz",
+      "source_sha256": "d3421c0acf937e52d898881b206f11025f1c3e9583baad5001a033d33feccc38",
+      "target_sha256": "a3d524faa6296e61129c417961de6fcc83b784f35223b10c6f28b1708c0c616c"
+    },
+    {
+      "path": "config/stages/marlinmadness/startscreen.xml",
+      "patch": "config__stages__marlinmadness__startscreen.xml.pdelta.gz",
+      "source_sha256": "9a8641a98fdbb28cd457738e465aae52b03f114cdb87e80b377cd1c81502c1a4",
+      "target_sha256": "3e2059370f25aef13b8154ba9a21d1c283f627641819947006b5036fae5d8b02"
+    },
+    {
+      "path": "config/stages/edtest/startscreen.xml",
+      "patch": "config__stages__edtest__startscreen.xml.pdelta.gz",
+      "source_sha256": "40ccfde1ede4dfde1db4e4d848c792d532b2d83a3779ba377884075f766913a7",
+      "target_sha256": "685f08a2703ad99cea3ee9758a8dbd579dcefe2eb677853c34acb37fe10b4033"
+    },
+    {
+      "path": "config/stages/merrygoround/startscreen.xml",
+      "patch": "config__stages__merrygoround__startscreen.xml.pdelta.gz",
+      "source_sha256": "d384f61161e63fc277165dac3e029e799f6309850f3d173ba61b80b1fb91420e",
+      "target_sha256": "7021063f47795c5cb6ed5c123202a5d49dfeb523caadae3218c46974175765e3"
+    },
+    {
+      "path": "config/stages/jamestest/startscreen.xml",
+      "patch": "config__stages__jamestest__startscreen.xml.pdelta.gz",
+      "source_sha256": "54b5827e1453ed36333073a17a20f2f9830f1baa30492eda6405fbee5b89696d",
+      "target_sha256": "44767271967405fb4f77f184a059306c23e77e42daf1c6754c2d3675e88f3b3a"
+    },
+    {
+      "path": "config/stages/suckitup/startscreen.xml",
+      "patch": "config__stages__suckitup__startscreen.xml.pdelta.gz",
+      "source_sha256": "da66b8d9f654dff9d6f603de509b43ab886aad67d63c8ee1c49c002d7af571e6",
+      "target_sha256": "38c7280080f2fdc02107adc0014107106767ad5e27e788ab49abaaa5c58c0d92"
+    },
+    {
+      "path": "config/stages/tunacrossing/startscreen.xml",
+      "patch": "config__stages__tunacrossing__startscreen.xml.pdelta.gz",
+      "source_sha256": "8f3a26b7dd987f23b8249dc517054e1944e04a61fa2264ba4d5004b0fde6ba8e",
+      "target_sha256": "59bb555bb7eea164171b92b8e30207da3ff2ef900b196245540b1fe1dd9d860c"
+    },
+    {
+      "path": "config/stages/moremutantmadness/startscreen.xml",
+      "patch": "config__stages__moremutantmadness__startscreen.xml.pdelta.gz",
+      "source_sha256": "3fe1c9c7df95ac0add1f80a16c98e2e07bcda11be16b84d1502837460c6649d5",
+      "target_sha256": "67fe8edd8faff198a2a5fe56971be02bdd7c04bb09dfcb765ac3e0ba381af631"
+    },
+    {
+      "path": "config/stages/suckersbet/startscreen.xml",
+      "patch": "config__stages__suckersbet__startscreen.xml.pdelta.gz",
+      "source_sha256": "f562901bf6f94c762933f02f078a47cff8e7c30ec33012a685d4c87add97a2a2",
+      "target_sha256": "4c612c077849bf092ea95b6221056869b9dbc1518fe4fc831f42fec71257c4a8"
+    },
+    {
+      "path": "config/stages/duckandcover/startscreen.xml",
+      "patch": "config__stages__duckandcover__startscreen.xml.pdelta.gz",
+      "source_sha256": "414ec704b50cde7a007fffed373bd4898719b00738006b7ae929ca82f4e02999",
+      "target_sha256": "d64d5894ac336f2c63a3fc38936d06ed9394974a9fdc9ea2c8d5e42df318abb8"
+    },
+    {
+      "path": "config/stages/minefield/startscreen.xml",
+      "patch": "config__stages__minefield__startscreen.xml.pdelta.gz",
+      "source_sha256": "75357731dc9c8b5fe1b5ab2d377830444f9d0b36d37b056723042cfe6ee5730a",
+      "target_sha256": "dfa8242b4f7a7604db9d3d251a5185376d2d4ee31ac256dae3f8634a6ee32d81"
+    },
+    {
+      "path": "config/stages/shellgame/startscreen.xml",
+      "patch": "config__stages__shellgame__startscreen.xml.pdelta.gz",
+      "source_sha256": "946f39f3052e437c9bd41f9b26e30b2d3a451c815eab67e8cf9fb5a3bb6801f9",
+      "target_sha256": "0cf8742ceab80835cd8da7dc41731f59016b7b99d6f2502133e855b232e6656a"
+    }
+  ]
+}

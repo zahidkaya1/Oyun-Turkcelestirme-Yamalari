@@ -1,0 +1,27 @@
+{
+  "id": "feedingfrenzy1",
+  "display_name": "Feeding Frenzy",
+  "version": "5.7.18.1",
+  "anchor": {
+    "path": "FFArchive.saf",
+    "sha256": "226df2f4d7bfae7be98d5e339a85996015b5b421589e543b8339862db1b5de81"
+  },
+  "patches": [
+    {
+      "type": "saf_internal",
+      "source": "FFArchive.saf",
+      "target": "FFArchive.saf",
+      "source_sha256": "226df2f4d7bfae7be98d5e339a85996015b5b421589e543b8339862db1b5de81",
+      "target_sha256": "85d86f6ce74b081c5f9de5782fd16f9e9a375eec719290482f3f11acd09b6475",
+      "source_size": 8063241,
+      "target_size": 8006626,
+      "archive_manifest": "archive_manifest.json",
+      "patch_dir": "patches"
+    }
+  ],
+  "text_edits": [],
+  "notes": [
+    "SAF arşivi yerelde açılır, yalnızca manifestteki iç dosyalara delta uygulanır ve arşiv hashleri yeniden üretilir.",
+    "Tam FFArchive.saf veya diğer orijinal oyun dosyaları depoda tutulmaz."
+  ]
+}

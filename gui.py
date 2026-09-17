@@ -14,7 +14,7 @@ import patcher
 
 
 APP_TITLE = "Oyun Türkçeleştirme Yamaları"
-APP_VERSION = "v0.2.0"
+APP_VERSION = "v0.4.0"
 SETTINGS_FILE = Path.home() / ".oyun_turkcelestirme_yamalari.json"
 
 BG = "#f3f6fb"

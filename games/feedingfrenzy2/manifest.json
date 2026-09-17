@@ -1,0 +1,37 @@
+{
+  "id": "feedingfrenzy2",
+  "display_name": "Feeding Frenzy 2",
+  "version": "1.0",
+  "anchor": {
+    "path": "FF2.saf",
+    "sha256": "177fb12081b9157e234b604c1b6fc25445133365a24eee28564047f204fd8983"
+  },
+  "patches": [
+    {
+      "type": "saf_internal",
+      "source": "FF2.saf",
+      "target": "FF2.saf",
+      "source_sha256": "177fb12081b9157e234b604c1b6fc25445133365a24eee28564047f204fd8983",
+      "target_sha256": "91b79204b5ebcc5e39b97db54411c85c4befd182f67bb30a6da76964e73bbd43",
+      "source_size": 14612511,
+      "target_size": 14750199,
+      "archive_manifest": "archive_manifest.json",
+      "patch_dir": "patches"
+    },
+    {
+      "source": "FeedingFrenzyTwo.exe",
+      "target": "FeedingFrenzyTwo.exe",
+      "source_sha256": "a942ecab8f992a3eb3a8bd51ddd25acafc08c82a62c40b007cfca05e840cf256",
+      "target_sha256": "d64005626a8d2bbd8a7c904243fd8710e278c7f2c239d91699482df9ea925ca5",
+      "source_size": 1764864,
+      "target_size": 1764864,
+      "patch": "patches/FeedingFrenzyTwo.exe.pdelta.gz"
+    }
+  ],
+  "text_edits": [],
+  "notes": [
+    "FF2.saf yerelde açılır; yalnızca değişen iç dosyalara delta uygulanır ve SAF hashleri yeniden üretilir.",
+    "Açılıştaki EXE içi LOADING metni, aynı uzunlukta ASCII BASLIYO metnine delta ile çevrilir.",
+    "Tam FF2.saf, FeedingFrenzyTwo.exe veya diğer orijinal oyun dosyaları depoda tutulmaz."
+  ]
+}

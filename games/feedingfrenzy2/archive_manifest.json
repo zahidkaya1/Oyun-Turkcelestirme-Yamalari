@@ -1,0 +1,628 @@
+{
+  "game": "Feeding Frenzy 2",
+  "version": "1.0",
+  "patch_version": "0.4.0",
+  "archive": "FF2.saf",
+  "original_archive_sha256": "177fb12081b9157e234b604c1b6fc25445133365a24eee28564047f204fd8983",
+  "target_archive_sha256": "91b79204b5ebcc5e39b97db54411c85c4befd182f67bb30a6da76964e73bbd43",
+  "files": [
+    {
+      "path": "resource/basestrings.xml",
+      "patch": "resource__basestrings.xml.pdelta.gz",
+      "source_sha256": "cc42bf95685d2ab5b7a0c9a14f330fe9a659ba63220084d64c6d8c20649afda7",
+      "target_sha256": "c9965b0400616f840481144f5399b465765207676289944c007c026fc229461e"
+    },
+    {
+      "path": "resource/fonts/boldfont.png",
+      "patch": "resource__fonts__boldfont.png.pdelta.gz",
+      "source_sha256": "268c2277fe104c5563e80d582deb6c9f880b5606ea9c903ebbe15656fa7b0b73",
+      "target_sha256": "487120c8bfeb4711cbfe97dda55086b5721cd6428f17f94fd164c1dbe6a7d6b5"
+    },
+    {
+      "path": "resource/fonts/boldfont.xml",
+      "patch": "resource__fonts__boldfont.xml.pdelta.gz",
+      "source_sha256": "d5eac9c374ca411b2f97ce138bae1e32b68de90d38b159b79e56eb26609342e3",
+      "target_sha256": "4b50718c3f1739b873a8fd02eba3be06186635d7c4bb791b2da57fa21fb00b3b"
+    },
+    {
+      "path": "resource/fonts/font_barmeno16.png",
+      "patch": "resource__fonts__font_barmeno16.png.pdelta.gz",
+      "source_sha256": "97f4eb510cb7ec48e2b96ee4048aa3f56809f5e8ba5fe2a2b590bd6366d74ec3",
+      "target_sha256": "0be09d738879e3056f87f82c7f7daf47516e5c9e83327932f93c409e604dc8db"
+    },
+    {
+      "path": "resource/fonts/font_barmeno16.xml",
+      "patch": "resource__fonts__font_barmeno16.xml.pdelta.gz",
+      "source_sha256": "e30e7fc8b96cf33d4ef59234291345dd29f542f1306ac3d813b5730912a7222a",
+      "target_sha256": "672bcd08a3a2e616f263cd6c25651d6ad0da69a33f31dff004ab7c4ec99e71cd"
+    },
+    {
+      "path": "resource/fonts/font_barmeno20.png",
+      "patch": "resource__fonts__font_barmeno20.png.pdelta.gz",
+      "source_sha256": "0c92973cf453c3d7a23bda01fa62cf9d525e02c26045321f260824425c5f93cc",
+      "target_sha256": "082bd37103deb9b9cee76c2e7b876d4725e5afa695bb669cb5b1ef1905b0953c"
+    },
+    {
+      "path": "resource/fonts/font_barmeno20.xml",
+      "patch": "resource__fonts__font_barmeno20.xml.pdelta.gz",
+      "source_sha256": "ecb8fab58310deef0c91b088bbafe177a43daed3234e469b1cd4c4c0f840d4ae",
+      "target_sha256": "3705ceae8b392db5866822833b916fc899a6266508daa03ead767c0c7491caa3"
+    },
+    {
+      "path": "resource/fonts/font_barmeno26.png",
+      "patch": "resource__fonts__font_barmeno26.png.pdelta.gz",
+      "source_sha256": "b4e23ba1a2a0a618401529f8262e30d9659705a5f54ddbabab222c6351629a93",
+      "target_sha256": "b1dc5e63aee941d4026992d75c66230bc1e319db7fc22021f63dffb7e1dba30a"
+    },
+    {
+      "path": "resource/fonts/font_barmeno26.xml",
+      "patch": "resource__fonts__font_barmeno26.xml.pdelta.gz",
+      "source_sha256": "c5f58be09dea668ae9e56094f7c7777ac4fa0b88ecbd72591f507636e6a80af5",
+      "target_sha256": "0daf4613a1a87f488da113104450e356641e7a0c7b029b28ffb744d0e8f28c84"
+    },
+    {
+      "path": "resource/fonts/font_bernardmt35.png",
+      "patch": "resource__fonts__font_bernardmt35.png.pdelta.gz",
+      "source_sha256": "32f94852668137287704fbc3360fc137fe3c9072e65d042633d6c8a87ca40a85",
+      "target_sha256": "8362a0a82c93b575ced31862ebb1b096ae09c470382f1af83fde1eb104bf700a"
+    },
+    {
+      "path": "resource/fonts/font_bernardmt35.xml",
+      "patch": "resource__fonts__font_bernardmt35.xml.pdelta.gz",
+      "source_sha256": "25824d565b5502cfd74cde9c7762e6de655d2d45dbf993a51c5e711c032699b5",
+      "target_sha256": "a4a7974221caa05f55544ac698af5b6331a14f5c9a971f6cf71b165702925745"
+    },
+    {
+      "path": "resource/fonts/infofont.png",
+      "patch": "resource__fonts__infofont.png.pdelta.gz",
+      "source_sha256": "b68672601fada474f46b79162b7c383f29158963e923e55e85e75205d1c415ce",
+      "target_sha256": "5160127c919de8865532e1ee07596c8cbdded2a73979567bc43b8ccbb72088ea"
+    },
+    {
+      "path": "resource/fonts/infofont.xml",
+      "patch": "resource__fonts__infofont.xml.pdelta.gz",
+      "source_sha256": "b6685f67b530ad0ca273f3d05164f5a52345a66dd5ffa23d651761be08b2bdd6",
+      "target_sha256": "eae01c1fa288212aead37cb0ecb0c627065bcda461dd5e561dd78e78d974bfb7"
+    },
+    {
+      "path": "resource/funfacts.xml",
+      "patch": "resource__funfacts.xml.pdelta.gz",
+      "source_sha256": "97ae1f01ff3813b4c3f0b40e0453f393f77dbc3d79d51fb49557ebf621c073d6",
+      "target_sha256": "c9e1203b715ee109731d93208818e12a852525cb00441cfc91c6642b42cc3057"
+    },
+    {
+      "path": "resource/hud/_hud_abilitytext.png",
+      "patch": "resource__hud___hud_abilitytext.png.pdelta.gz",
+      "source_sha256": "86b33ec9a41c9e7f8bfab012945cfd5af6c61fda0ae49ad92af04dccc58d6f33",
+      "target_sha256": "33a8c06cd9689a4e38b107e7efb07598725cc3634192d3df2dc5c7aa1e119794"
+    },
+    {
+      "path": "resource/hud/_hud_bosstext.png",
+      "patch": "resource__hud___hud_bosstext.png.pdelta.gz",
+      "source_sha256": "bc181a1bc0054cb6bc16dad196244810d526bae3f1a001a8b8aa659762705fc2",
+      "target_sha256": "170cc1fc6fcd6dba50a052ebc770837ab55c5078b5aab5d501b2cd05da575c20"
+    },
+    {
+      "path": "resource/hud/_hud_growthtext.png",
+      "patch": "resource__hud___hud_growthtext.png.pdelta.gz",
+      "source_sha256": "d683be6d693ac30b6bcd054f600718b18754a2d33089653172a51f81a1ac4055",
+      "target_sha256": "9f1514925d504d8ddbb4dc2d57014ef6590c9effee26972cea1e7c727f30b3fe"
+    },
+    {
+      "path": "resource/hud/_jumpheightdisplay.png",
+      "patch": "resource__hud___jumpheightdisplay.png.pdelta.gz",
+      "source_sha256": "3478a3d1fa0e84a65cfbdebc7c30290db5f8b7ea7e1868b3e0bd45dada4382a4",
+      "target_sha256": "d82767b20d088e6ce94381de6ff8169ab643e6e05293387cc9e40e33f5b2e24f"
+    },
+    {
+      "path": "resource/hud/hud_abilitytext.jpg",
+      "patch": "resource__hud__hud_abilitytext.jpg.pdelta.gz",
+      "source_sha256": "fa8a4cebc138e218d36a82d3d6343c86a74ecb9ce436219165e8525ece558a8c",
+      "target_sha256": "5f0d5b6c3c048db08d3efd9130a2ca3550c07423f7dfd61977c84c98e0168ae0"
+    },
+    {
+      "path": "resource/hud/hud_bosstext.jpg",
+      "patch": "resource__hud__hud_bosstext.jpg.pdelta.gz",
+      "source_sha256": "ac57e275e24b5f9b2ca4c86ce80a06e46fde7e71c495716aa43210ac1a88d01e",
+      "target_sha256": "f3944bf90b4bd063efc6652d0261676d06bf2adccd5c9a2e95d4e5512ea424cc"
+    },
+    {
+      "path": "resource/hud/hud_growthtext.jpg",
+      "patch": "resource__hud__hud_growthtext.jpg.pdelta.gz",
+      "source_sha256": "e5bf41fcadec1febff947a2366ea1d77d2c1c0b37f2e7176e3a84a48e3d1b89e",
+      "target_sha256": "1ae8ad406689e6ecbc9b99425d779fcce2fb382317a1e58ef69ad801edb9485f"
+    },
+    {
+      "path": "resource/hud/hudlayout.xml",
+      "patch": "resource__hud__hudlayout.xml.pdelta.gz",
+      "source_sha256": "ced7373433bd46f59ebc467e1ee14d6a441f54ed6623d7b94c9e4609511c4d2a",
+      "target_sha256": "f9bbd66db6ee6ead7110d8d6a1551e00c7007e99d37888f87a3c9cd115d33784"
+    },
+    {
+      "path": "resource/hud/hudsplats.xml",
+      "patch": "resource__hud__hudsplats.xml.pdelta.gz",
+      "source_sha256": "3fd57c75ebeba99e1e5175121b5399e9d36c1e80f4b6f01c80c08977578d9e76",
+      "target_sha256": "18b5a1d9a27f4b07485ce80317ccaadb1ecccf2ef0d20204851b21a0920f1477"
+    },
+    {
+      "path": "resource/hud/jumpheightdisplay.jpg",
+      "patch": "resource__hud__jumpheightdisplay.jpg.pdelta.gz",
+      "source_sha256": "9e577185e96a7f9ee507bed2b1cac5113ed1a8f40b910dda4148a3eb9ce4b774",
+      "target_sha256": "ca3cfd42eedfc96f566909b900b45c31f92a7644a51a8e1693346607e4d2f4bf"
+    },
+    {
+      "path": "resource/hud/medalnewrecord.jpg",
+      "patch": "resource__hud__medalnewrecord.jpg.pdelta.gz",
+      "source_sha256": "11ff98db7f4653b726e640bb07b85e8904e09ba25d9f7ffe73531f65d3d18a82",
+      "target_sha256": "378840654d239d0ec4c3143281f127fe9ae95d9ef4d96a4017e7c4e12247437d"
+    },
+    {
+      "path": "resource/hud/medalpersonalbest.jpg",
+      "patch": "resource__hud__medalpersonalbest.jpg.pdelta.gz",
+      "source_sha256": "a95af829814f00ae1292557f161411acb4a84429fe1e114a4a40e186c85427e7",
+      "target_sha256": "c467957c3d8e0af740e41550397bb8b532125b9f296cc3a2fdd58a31cdfbccdc"
+    },
+    {
+      "path": "resource/menus/mainbuttonquit.png",
+      "patch": "resource__menus__mainbuttonquit.png.pdelta.gz",
+      "source_sha256": "928109b1f9881d7c9c08448b2ae7a790a97e347df17d8e5d60819ffffa2d4f23",
+      "target_sha256": "d2301bbd73a44f9930d5fa0b4d4ac8ef096680b7d24ef4dc9e6bad1a259b8df3"
+    },
+    {
+      "path": "resource/menus/mainhighscorehigh.png",
+      "patch": "resource__menus__mainhighscorehigh.png.pdelta.gz",
+      "source_sha256": "578fa0e053c4df20cf859eb9ad0210da6f3a1a76a3bf99197e7829ddae69fe2c",
+      "target_sha256": "8114f2fe65ac4a79d6572d6a1a79fa422f461e24fa75a2a654c20ac871ebf1c1"
+    },
+    {
+      "path": "resource/menus/mainhighscorenormal.png",
+      "patch": "resource__menus__mainhighscorenormal.png.pdelta.gz",
+      "source_sha256": "0a3c02d1d8ecade6ba46d9a529564bcf35dbe0ac4f33776eb7e74fcc41286409",
+      "target_sha256": "0c8692c2e2091e86d2d3560afc8b100e694ce610da8fd866c276b46b1344198e"
+    },
+    {
+      "path": "resource/menus/mainnewhigh.png",
+      "patch": "resource__menus__mainnewhigh.png.pdelta.gz",
+      "source_sha256": "a3d736acea6a54b7d0bd7b365d689c927e875646e86f9622b917435e38086914",
+      "target_sha256": "d82ff114ea8f237c8bd29f3e64223ccc70309be10e4aed9ec887d5226593548a"
+    },
+    {
+      "path": "resource/menus/mainnewnormal.png",
+      "patch": "resource__menus__mainnewnormal.png.pdelta.gz",
+      "source_sha256": "334b6e61b10d39b0c04b2801b385b2c0ebbcad884bfb05c1532a58251478aacc",
+      "target_sha256": "fe2882d8e7ab2d39ee8310d9cd14f724c3f174d94c8b8771e94976e31fd414b8"
+    },
+    {
+      "path": "resource/menus/mainoptionshigh.png",
+      "patch": "resource__menus__mainoptionshigh.png.pdelta.gz",
+      "source_sha256": "77588eeb47ab24321cd620113a1e33f04601692df3dcdae69a152bb3508084ee",
+      "target_sha256": "38db5c66ac1004736ca169b47e55b080b0397e93678b897f9b62fe73d1aa92fd"
+    },
+    {
+      "path": "resource/menus/mainoptionsnormal.png",
+      "patch": "resource__menus__mainoptionsnormal.png.pdelta.gz",
+      "source_sha256": "fd97a4c2a6874008f020951fc2a019e09d332fcd40fed2da49438354d310bd3e",
+      "target_sha256": "2ed1fdb8e86e3fbf25e9fe69f713b5a6c92136221047b22a93c9fd0744804267"
+    },
+    {
+      "path": "resource/menus/mainquithigh.png",
+      "patch": "resource__menus__mainquithigh.png.pdelta.gz",
+      "source_sha256": "b0215f9a3e6c892fbb779a6f819deea8d7dfeb1bfb5c444b7ebb104260493389",
+      "target_sha256": "a4c38f26f12d66a23ea062109c9b98c21248af61877fcd64ed483d71ba1d4348"
+    },
+    {
+      "path": "resource/menus/mainquitnormal.png",
+      "patch": "resource__menus__mainquitnormal.png.pdelta.gz",
+      "source_sha256": "1f737fc45f98f75674be0573de7504ad82b8b80ecfd3336569f0073d7623fb7d",
+      "target_sha256": "728d01bff4024bcf49a7d49f4341c92b64495d5c6e5262a05fc721206a730c8d"
+    },
+    {
+      "path": "resource/menus/maintimehigh.png",
+      "patch": "resource__menus__maintimehigh.png.pdelta.gz",
+      "source_sha256": "e0067a38f479f4404fe291b2fe019d2cf7093f5d99e21edf09f5c944e611819b",
+      "target_sha256": "c744059a5e0625fc8dae513179f76aac8b2b1b0ac8c7984144b82a4fd763e15b"
+    },
+    {
+      "path": "resource/menus/maintimenormal.png",
+      "patch": "resource__menus__maintimenormal.png.pdelta.gz",
+      "source_sha256": "76de6b39e8d3d9496624ed35819cb9bf1479930dfbd491ef31e238bc6b9d74fd",
+      "target_sha256": "a98c2999af9d58de1380916439d2771d68661a6cb2cecabc893b869ce82237f7"
+    },
+    {
+      "path": "resource/menus/mapbg.jpg",
+      "patch": "resource__menus__mapbg.jpg.pdelta.gz",
+      "source_sha256": "cd03b2c5049304713c66b072cf852af1f4eafae8c4fd1345b2a24afde24c1895",
+      "target_sha256": "9843f290a46c16104dfcc7884b9ca71b4c0548703bdc2e35b9c873c80da306a9"
+    },
+    {
+      "path": "resource/menus/mapchooseoverlay.jpg",
+      "patch": "resource__menus__mapchooseoverlay.jpg.pdelta.gz",
+      "source_sha256": "6bb3aeb63d19e8d26646d1d28c7503fb5589e702460beec4c52d99347a32c09f",
+      "target_sha256": "4af53c58d797f13e5eaff51d58dc66c5f17642d0d8e66fa1be675a68d58ce46b"
+    },
+    {
+      "path": "resource/menus/screenextras/abilitymeter.jpg",
+      "patch": "resource__menus__screenextras__abilitymeter.jpg.pdelta.gz",
+      "source_sha256": "e402246f8a320a4049c2ff7a966163672e0932857987878a7757a3bd914046b9",
+      "target_sha256": "3ce986102eba4a440e74ddebc71edde075b1e12aed0c48a051b2c1913cbcadcf"
+    },
+    {
+      "path": "resource/playerranks.xml",
+      "patch": "resource__playerranks.xml.pdelta.gz",
+      "source_sha256": "5c55f96472e942ab54e8bef20afc3b360b60ba0bc86926d9aa28c08b05603160",
+      "target_sha256": "40bf15162d099ac220d2f9e55881911ac8f7bfed9e117dc2094a9a0d56ab8f01"
+    },
+    {
+      "path": "resource/shell/appquitconfirm.xml",
+      "patch": "resource__shell__appquitconfirm.xml.pdelta.gz",
+      "source_sha256": "060487f9fcf48eca77e2f21a781d2509413346cc2b565fe07db6ed32d13d22f2",
+      "target_sha256": "f3b8d5bafaade9865f31e56b69cd89a7ea4a7749bcdc3c94f4eb1917c7a9afaf"
+    },
+    {
+      "path": "resource/shell/credits.xml",
+      "patch": "resource__shell__credits.xml.pdelta.gz",
+      "source_sha256": "69c1cc754473d35c40b14669bb5dba1a9c8d013acc22722e0e98a7bb02ed5a4b",
+      "target_sha256": "dafdc5ec88629f3b1bee33538f2c8abfe5709c95f6236c58a0ca5859b37cfc36"
+    },
+    {
+      "path": "resource/shell/debuglevelselect.xml",
+      "patch": "resource__shell__debuglevelselect.xml.pdelta.gz",
+      "source_sha256": "2515314b6f7bc06f09a21b8a53642786069d947cc75b5885333f3442fbaff21c",
+      "target_sha256": "b1cb34dd95b27d6961e50df013b27e0b9dc2228b4739b2ce71dfdaa849593efc"
+    },
+    {
+      "path": "resource/shell/gameexitconfirm.xml",
+      "patch": "resource__shell__gameexitconfirm.xml.pdelta.gz",
+      "source_sha256": "016874c779cc56a6edbe34865fd985442d5e976bc71f79904640695924cc4bc1",
+      "target_sha256": "d23e6cbbe48e66f6a65d1da98200ac1d77fd392d864f15c6d22cdd969a73ce56"
+    },
+    {
+      "path": "resource/shell/gamelinkbtnhigh.jpg",
+      "patch": "resource__shell__gamelinkbtnhigh.jpg.pdelta.gz",
+      "source_sha256": "51a6b944c9911dd872c0af3f206180d31cc22923b0aa33403dbb11dc7f59878f",
+      "target_sha256": "ffb973e5e0e52ba6cba0ece41ad0ba567f367d883d971152b7654ad55f32381d"
+    },
+    {
+      "path": "resource/shell/gamelinkbtnnormal.jpg",
+      "patch": "resource__shell__gamelinkbtnnormal.jpg.pdelta.gz",
+      "source_sha256": "e1e0d850ebb014cd9c36edb08a1de5d94ea183c269891d53058a0aa8590801c7",
+      "target_sha256": "47a53c2142f13be00e70464bb175d748b179b1e97fcf48f2a64c36478c476d33"
+    },
+    {
+      "path": "resource/shell/gamemap/gamemap_titleboard.jpg",
+      "patch": "resource__shell__gamemap__gamemap_titleboard.jpg.pdelta.gz",
+      "source_sha256": "1100420a2c59fec0eb3036fd0e3dd081cfe8493e8e46635c5f607180833d75b1",
+      "target_sha256": "306bd4c6294403a654d1e9dd2453ff83305f9ea2ba850867eaae7be1a7485386"
+    },
+    {
+      "path": "resource/shell/gamemapbase.xml",
+      "patch": "resource__shell__gamemapbase.xml.pdelta.gz",
+      "source_sha256": "c9ea49122a41991fb23ccf479ed3e1908f9fbc7ae9f8e184f943ca30e85c4e84",
+      "target_sha256": "c62ebf539d9da5808623ac71056592a2e1fec532dff30a499e0eeffb187667d4"
+    },
+    {
+      "path": "resource/shell/gameovercontinuesleft.xml",
+      "patch": "resource__shell__gameovercontinuesleft.xml.pdelta.gz",
+      "source_sha256": "9c4b2f60e1c363b187a38a838f8f597051a6e3b3b03f12a1d618d6ff00d7925a",
+      "target_sha256": "d407d2d52b7aa0a30758a8b390e63bd9403ac4e5e3c38b3b3f589594a2036914"
+    },
+    {
+      "path": "resource/shell/gameovernocontinuesleft.xml",
+      "patch": "resource__shell__gameovernocontinuesleft.xml.pdelta.gz",
+      "source_sha256": "98e98115e01bbf7e0331471e4ac30693298e60180573bfdf05814e6db76c110d",
+      "target_sha256": "c31c7d57f14943a8ef7a26da9b3858eec005837e99bca531695a85716f17c1e7"
+    },
+    {
+      "path": "resource/shell/genericloadscreen.xml",
+      "patch": "resource__shell__genericloadscreen.xml.pdelta.gz",
+      "source_sha256": "d75727e17197a99d27e8d487ab7458058d8fb0e737e7b7aa47108b4519922adf",
+      "target_sha256": "a2a19e5a7c22f37f85c222f5fa1a07bacbc1111df17ad9a85b3edaf9d21f3a4f"
+    },
+    {
+      "path": "resource/shell/highscorescreen.xml",
+      "patch": "resource__shell__highscorescreen.xml.pdelta.gz",
+      "source_sha256": "f16bd2cb6cb7cf96cc5f9d881bb3d752d1cb9c8fabe3880cf3541bf5e12eb2b4",
+      "target_sha256": "3b0b2c247fd022dc16d0afc4defbd11dcef10d1e55a1da404f1149cf2822f25b"
+    },
+    {
+      "path": "resource/shell/mainmenu.xml",
+      "patch": "resource__shell__mainmenu.xml.pdelta.gz",
+      "source_sha256": "3cbd2b4a516432d65f8f4d1a1f9723dc79d94555e69ec2ebe607e766e1b7f638",
+      "target_sha256": "c67a8c3ef88355621b3bcfa9f2ca23f74a55ad2102ec815aba11dc4d4006e7a5"
+    },
+    {
+      "path": "resource/shell/mm_credits_high.jpg",
+      "patch": "resource__shell__mm_credits_high.jpg.pdelta.gz",
+      "source_sha256": "8570ac010715c1e04a8a30e010210dd722c3e8e1d431dca85065dcb71ee7a778",
+      "target_sha256": "076a3fc2e84a0705cb62f3eebb5cf3d1f06ea36bad1af636cc40e912a32ca16b"
+    },
+    {
+      "path": "resource/shell/mm_credits_normal.jpg",
+      "patch": "resource__shell__mm_credits_normal.jpg.pdelta.gz",
+      "source_sha256": "b1a44e1a47f90ad1fa157aa95c3d38f2543459c1b7af335e17e2f8adabf49ba4",
+      "target_sha256": "e911dc79add7c41af62bae34bd8e6ae7f7360a8e28227cdb5466a2d4897cb33d"
+    },
+    {
+      "path": "resource/shell/mm_highscores_high.jpg",
+      "patch": "resource__shell__mm_highscores_high.jpg.pdelta.gz",
+      "source_sha256": "48ad05035bdd641ffadfe3d544ee253d0f64c45f9329bb738ee3f2953f3abfc8",
+      "target_sha256": "3641139520a783acf1cd7e31f4b2ca97b3e3eb3f3684691df27a8d42ced83a1b"
+    },
+    {
+      "path": "resource/shell/mm_highscores_normal.jpg",
+      "patch": "resource__shell__mm_highscores_normal.jpg.pdelta.gz",
+      "source_sha256": "a7e3ef79a170146e3677a9d201316178334b1294ac48befa73cd300fb8c83d4e",
+      "target_sha256": "66181451ceef68f1a1e0f5776e4404449d752599962e8877dbbd9e27748a4cb3"
+    },
+    {
+      "path": "resource/shell/mm_options_high.jpg",
+      "patch": "resource__shell__mm_options_high.jpg.pdelta.gz",
+      "source_sha256": "89e8a7bcb4d69a59e434dc8e2890d9b81f9323f49bcdbe9914f8aad2e785b23b",
+      "target_sha256": "95bc11cf81ae5d391b8363606653f0e449313d5346ed134fe148fb9c03b1fc52"
+    },
+    {
+      "path": "resource/shell/mm_options_normal.jpg",
+      "patch": "resource__shell__mm_options_normal.jpg.pdelta.gz",
+      "source_sha256": "644482937b96507407e6233ad1ef1c76e76d79726f05dc595e542fa2e2ae1df9",
+      "target_sha256": "dc04dff170847e7eabc0dbc0fcf2b26c618041172c59cebafc769b8411085170"
+    },
+    {
+      "path": "resource/shell/mm_quit_high.jpg",
+      "patch": "resource__shell__mm_quit_high.jpg.pdelta.gz",
+      "source_sha256": "1696a4299d695c8ca0a2afadf63363e23e438513944ad1a581bc20e46f397ac2",
+      "target_sha256": "a204a472cdb57fbf644049a3b8c222cb93f329d862f3c7770cbe722ade2f34b7"
+    },
+    {
+      "path": "resource/shell/mm_quit_normal.jpg",
+      "patch": "resource__shell__mm_quit_normal.jpg.pdelta.gz",
+      "source_sha256": "e81df37d2b7f8e3a1d3d7cbe171ffef3e5e3e673765205323c2f239adeace4f4",
+      "target_sha256": "0f3f06c7252fd8daf98d04902bf1f276bb78ad1101780e816799a2c1893cb503"
+    },
+    {
+      "path": "resource/shell/mm_startgame_high.jpg",
+      "patch": "resource__shell__mm_startgame_high.jpg.pdelta.gz",
+      "source_sha256": "c49fbbe63a1506c838ddc1c4be4ba70ea621c8bbd5e8968d4570ab958efe7128",
+      "target_sha256": "8b7ff33bd2e763da5a8079176c0716f5bcd1cc80ffc13d54b671b79146df2ad8"
+    },
+    {
+      "path": "resource/shell/mm_startgame_normal.jpg",
+      "patch": "resource__shell__mm_startgame_normal.jpg.pdelta.gz",
+      "source_sha256": "cd39c6b077b657187041b26dab8e4f1dbb93dc6697bd1b2f2e0f238b1bf47af5",
+      "target_sha256": "cc2ff09f246bf7753b151fe526374c085213d6e9754bf01f927e0092c13a27b7"
+    },
+    {
+      "path": "resource/shell/mm_switchuser_high.jpg",
+      "patch": "resource__shell__mm_switchuser_high.jpg.pdelta.gz",
+      "source_sha256": "f2ff31a12f4c166245c5f15fa209e7a5e03363285f955cd1bf3dd50128032bdf",
+      "target_sha256": "941d57c36a52c037d2dc7bf7a0514bdf08f9b95b2598f8928a6f0fddc42b56ec"
+    },
+    {
+      "path": "resource/shell/mm_switchuser_normal.jpg",
+      "patch": "resource__shell__mm_switchuser_normal.jpg.pdelta.gz",
+      "source_sha256": "88c03cb091311dd46d263c3e9fcdef7a64e15c0fc4c41656b43e76c094ed50f2",
+      "target_sha256": "8269fa80f02b125730dca21af8712125d893a8026eb64685109e23be99f139a1"
+    },
+    {
+      "path": "resource/shell/mm_timeattack_high.jpg",
+      "patch": "resource__shell__mm_timeattack_high.jpg.pdelta.gz",
+      "source_sha256": "ed0870ffee3cf6a1c753aea677a105907837b6323fefd68416d3edc74ae56083",
+      "target_sha256": "a533eeb4a50526008302b31bab49d3462a5f04e32d6ae615caf06d227d348a72"
+    },
+    {
+      "path": "resource/shell/mm_timeattack_normal.jpg",
+      "patch": "resource__shell__mm_timeattack_normal.jpg.pdelta.gz",
+      "source_sha256": "fb915e17c76cf1a48bc8ef1f0dbf755a2c3c9ef0b6a1ff6290e5113c1608fa74",
+      "target_sha256": "52045ad237bf529ba1f40740ae3db5c4299c37a23daa5d7b0f2802a1f95a0605"
+    },
+    {
+      "path": "resource/shell/options.xml",
+      "patch": "resource__shell__options.xml.pdelta.gz",
+      "source_sha256": "084daa144a0261b89bde66d9635f303a57f4fd2308ea92b8204cab2ff9ce3812",
+      "target_sha256": "d8a68fd07ab433766e0121fd6e36f694fd323e4b555e430e6d6a8acc208a640d"
+    },
+    {
+      "path": "resource/shell/pausescreen.xml",
+      "patch": "resource__shell__pausescreen.xml.pdelta.gz",
+      "source_sha256": "86d4e75ea8197b729dbc9282944b3cc79dd64c89229c0c6a4e01963bec99d8f3",
+      "target_sha256": "5c57ca45cd2e56e78a475754b9cdc76cec24586d0ff88fd76d343e96ff574c1e"
+    },
+    {
+      "path": "resource/shell/resethighscoresconfirm.xml",
+      "patch": "resource__shell__resethighscoresconfirm.xml.pdelta.gz",
+      "source_sha256": "0dc96361cab0443d86a7da3a1fa545f9e59d7081c502c1732eeb599fe5fcd021",
+      "target_sha256": "7202de8b9a47e8bb67a050289c406eed83fcdcf2747817b30e6f9c2b59f41330"
+    },
+    {
+      "path": "resource/shell/restoregamescreen.xml",
+      "patch": "resource__shell__restoregamescreen.xml.pdelta.gz",
+      "source_sha256": "d870c5853bc66812d9057a5045ee27e8c18a562f2c76f992bd6ce0e2581fc7fe",
+      "target_sha256": "0efdda779e94ce4eba8f1c6de050825dcb394254774d1cbae9c72ee09c7df124"
+    },
+    {
+      "path": "resource/shell/shell_barracudabonus.jpg",
+      "patch": "resource__shell__shell_barracudabonus.jpg.pdelta.gz",
+      "source_sha256": "a0ed0ef6737e583b39094f3008681e952e46d87ce1b004de104711618aa49b14",
+      "target_sha256": "1929fb726d8e35ef7745d10376d7140fe8cbb726aa74bf99f93a1adc1fa8bd9f"
+    },
+    {
+      "path": "resource/shell/shell_chooseuser_hdr.jpg",
+      "patch": "resource__shell__shell_chooseuser_hdr.jpg.pdelta.gz",
+      "source_sha256": "cf0e4b797da38ec3d643cc8a4b4159a3e9779fd72c3400f39faac12526f78d09",
+      "target_sha256": "d13444d11505861c01e6e3d5813573b41b58cf00cb85ac573458d7522951070a"
+    },
+    {
+      "path": "resource/shell/shell_deleteuser_hdr.jpg",
+      "patch": "resource__shell__shell_deleteuser_hdr.jpg.pdelta.gz",
+      "source_sha256": "17f1abdae69ce1a3694796ee1b3ae6c57edb677808c75c84b76e7f89c13c8d51",
+      "target_sha256": "f563a5481e9eeac355666f51c212068058bd48f5d864cfd0472a7358a90b0f37"
+    },
+    {
+      "path": "resource/shell/shell_entername_hdr.jpg",
+      "patch": "resource__shell__shell_entername_hdr.jpg.pdelta.gz",
+      "source_sha256": "66aeaf4de51d8b6cf3bbe215a2a4afa6f53b773a7229cdf737c12fc6a1ef21eb",
+      "target_sha256": "1f3900b3fd4d28ec1bf758059f1b06cd8710670bfdd05df129649b225b36e0cf"
+    },
+    {
+      "path": "resource/shell/shell_gameover_hdr.jpg",
+      "patch": "resource__shell__shell_gameover_hdr.jpg.pdelta.gz",
+      "source_sha256": "dfa6225a1fa44431d89db2cee3f32e184718962d69c6eb21b51384a97d54ac6b",
+      "target_sha256": "53fbbd4da072e4b087738d566a3224a2468fa9895697dd7d2d55ed9a4021dee4"
+    },
+    {
+      "path": "resource/shell/shell_gamepaused_hdr.jpg",
+      "patch": "resource__shell__shell_gamepaused_hdr.jpg.pdelta.gz",
+      "source_sha256": "18d3b38973da5de047f6370d11f839efdde38b6cb665ca25741cc7467d7737ad",
+      "target_sha256": "7450162d4e1657feab6ccbe72eb902ae3e07b469139b4e2ef1e0f98d36c8c201"
+    },
+    {
+      "path": "resource/shell/shell_genericerror_hdr.jpg",
+      "patch": "resource__shell__shell_genericerror_hdr.jpg.pdelta.gz",
+      "source_sha256": "92ffde93e369f8611732853b90360f7c8bcdcc997c64312185619d7e2cd72198",
+      "target_sha256": "e5d01c1dd32c54158dbcaacc8614f854e37d913a372ddfacf7b22b0a9e3dbabc"
+    },
+    {
+      "path": "resource/shell/shell_options_hdr.jpg",
+      "patch": "resource__shell__shell_options_hdr.jpg.pdelta.gz",
+      "source_sha256": "e90e3d8578e83e476286d8fe734cc001e48e427def53498ca64845ec937c0482",
+      "target_sha256": "9b8c602d9ff927c7afb214d2c4d780741b60c01040e399768c58c12dfcd04a79"
+    },
+    {
+      "path": "resource/shell/shell_quitgame_hdr.jpg",
+      "patch": "resource__shell__shell_quitgame_hdr.jpg.pdelta.gz",
+      "source_sha256": "0c7de928c9e0d26453b8385bee431c8cc3408cd74cde36431376e6b408b5d7b5",
+      "target_sha256": "9e1bcf7ab7072994603fffdfc9809422ad4946ebc20bee20feb5ad1f6f680930"
+    },
+    {
+      "path": "resource/shell/shell_resetscores_hdr.jpg",
+      "patch": "resource__shell__shell_resetscores_hdr.jpg.pdelta.gz",
+      "source_sha256": "2a5221691309f4ff3928766d03a94e5f0ce3f1dfcaf71f90c064fcfe564367a5",
+      "target_sha256": "d978e509238796d70ff04907aa2c127095254fae44b0074adbf282bcaa538f4c"
+    },
+    {
+      "path": "resource/shell/shell_resumegame_hdr.jpg",
+      "patch": "resource__shell__shell_resumegame_hdr.jpg.pdelta.gz",
+      "source_sha256": "7326a1974074673d9a0c21f0a1bd91986e17ed9074d6d774c0e5ae231cc1bdf8",
+      "target_sha256": "d7908509e9e326db24b5dce89de70ccef56ee5e472fb0f0766ef2f7b474ad4f9"
+    },
+    {
+      "path": "resource/shell/stagecompletebase.xml",
+      "patch": "resource__shell__stagecompletebase.xml.pdelta.gz",
+      "source_sha256": "cc0b70a1c06bb449da54d5b6dddf9cf6cfc03c595fb3058460c2b689b093ee95",
+      "target_sha256": "a59b8bac3f4470fb5469c80a9efa73b7e65f62302965b945ccfe9c25182dbd98"
+    },
+    {
+      "path": "resource/shell/stagecompletebonus.xml",
+      "patch": "resource__shell__stagecompletebonus.xml.pdelta.gz",
+      "source_sha256": "dcc58a25dda738c134f2d30817452aead5e3fa724e5e5f9078fc5c5bf7a2cdbb",
+      "target_sha256": "d8412c09f9246db80f704799289168f276b28a9575785c9db22c8d6fe875a11f"
+    },
+    {
+      "path": "resource/shell/stagestartbase.xml",
+      "patch": "resource__shell__stagestartbase.xml.pdelta.gz",
+      "source_sha256": "adfd566f559ded4fb0dd4f968d41cacb8150cfa20dba178bc8145840d77683ea",
+      "target_sha256": "39463272bf1ce020e9a745cd7be9f1bca7d264c04e52ddf49195c7fb08a3037a"
+    },
+    {
+      "path": "resource/shell/userdeleteconfirm.xml",
+      "patch": "resource__shell__userdeleteconfirm.xml.pdelta.gz",
+      "source_sha256": "cab28096c1e659691b11be5248bf511341a66401ce91cde72012156707d5fa20",
+      "target_sha256": "6f7c018115a034cd08883975bb635ed9b576a62ab7837112e64bc6794d604659"
+    },
+    {
+      "path": "resource/shell/userduplicateconfirm.xml",
+      "patch": "resource__shell__userduplicateconfirm.xml.pdelta.gz",
+      "source_sha256": "1ad81714dd4e6e4a6fc31fcf1b9476954ed856a564bc4b5837de686fe3940044",
+      "target_sha256": "7eb261dc74214c78c76aa07c92de37bdc7ebae2c1daa8e0c94b5736458bce069"
+    },
+    {
+      "path": "resource/shell/userentry.xml",
+      "patch": "resource__shell__userentry.xml.pdelta.gz",
+      "source_sha256": "8619c34176560a562a3194499edd8e1ab4a442051464ddb41227baf288c05deb",
+      "target_sha256": "b922073e26a86135e6139fbf7d06ff81fc2fab89fc2714ac1167251426ccc25f"
+    },
+    {
+      "path": "resource/shell/userlistfullconfirm.xml",
+      "patch": "resource__shell__userlistfullconfirm.xml.pdelta.gz",
+      "source_sha256": "d19dcbdd63a25d4f388e01a3781fec266dc8286003a88dd82309b62012dc96a9",
+      "target_sha256": "9da12b0df3300228a9d154eb40b3be193bba57ec34c8d2934bde54b6c430bec3"
+    },
+    {
+      "path": "resource/shell/userselect.xml",
+      "patch": "resource__shell__userselect.xml.pdelta.gz",
+      "source_sha256": "bea2a8e80830d9ea95e1f206de08fb1760187e3422e57961e4bf70714e14e901",
+      "target_sha256": "f0cbf6a1a150029d4e05939379abc88fb71af301aa137bf4e7c2cceabd1102ac"
+    },
+    {
+      "path": "resource/stageart/scr_frenzymeter.jpg",
+      "patch": "resource__stageart__scr_frenzymeter.jpg.pdelta.gz",
+      "source_sha256": "87886dd40bc10a868ae3511d82e32da58043816e188b0840251a03163261e36c",
+      "target_sha256": "e31415b8d737d004c2368667345a627098ef23668ee4e22366fac433c8663dcf"
+    },
+    {
+      "path": "resource/stages/bonus11.xml",
+      "patch": "resource__stages__bonus11.xml.pdelta.gz",
+      "source_sha256": "8866f7c03ab841f305fd4f511360aeab0ce2aea9f1275e7926d10f9933b53e7f",
+      "target_sha256": "ff5b2dac9ba61fe57fb6980c550a25749b92f1dd689e301bf288d30877eeb1f9"
+    },
+    {
+      "path": "resource/stages/bonus12.xml",
+      "patch": "resource__stages__bonus12.xml.pdelta.gz",
+      "source_sha256": "1dd82f5609a447db94f462f5861e1d8355cdbf177421e2735414063dbd84c214",
+      "target_sha256": "e8d7a16affa4d3312e7ed3b967b728dba17f4de5f755c75e61a0570ea48d4389"
+    },
+    {
+      "path": "resource/stages/bonus13.xml",
+      "patch": "resource__stages__bonus13.xml.pdelta.gz",
+      "source_sha256": "129872036701586af6b3098c6a2b996292a1bc7a4e0c8bc64f1434668b54aebb",
+      "target_sha256": "a098173716c9ec123b95dd1ac43635561c6b7e5290234ae867886bc5fe994846"
+    },
+    {
+      "path": "resource/stages/bonus15.xml",
+      "patch": "resource__stages__bonus15.xml.pdelta.gz",
+      "source_sha256": "b3b4b12ae05b09eaea522ca16779d038b797623e580fbba1e10fae7344c40b9f",
+      "target_sha256": "45a096b30a1ff9c74c6b1c00ef377eddbff76f6f5c1022c635b825fae5570adb"
+    },
+    {
+      "path": "resource/stages/bonus16.xml",
+      "patch": "resource__stages__bonus16.xml.pdelta.gz",
+      "source_sha256": "9262a12ee4a0e72147ecc53ef2394591ace8b2fbbd14959f7b199f8aee079adc",
+      "target_sha256": "c164974c12b3dcddb2d783646e744cadcf556d05322cd6cab284788ce9b02a2a"
+    },
+    {
+      "path": "resource/stages/bonustest.xml",
+      "patch": "resource__stages__bonustest.xml.pdelta.gz",
+      "source_sha256": "a1c84e96105d69d65ac0f84741521bf4c7188c898627444af174dc2ac3dc8c30",
+      "target_sha256": "4ece97eb8994ab11e80b4305c1c9b19f00576b30d5ae90c4e3382fd98c6e397a"
+    },
+    {
+      "path": "resource/stages/menustage.xml",
+      "patch": "resource__stages__menustage.xml.pdelta.gz",
+      "source_sha256": "097502c7a39605124b1c27847f33f2874ed6232cd57721ce5c315f8be5d0ed58",
+      "target_sha256": "6144d6d517726739aa8374839073641d61ff7d9fe8096276c98cf086c89e604a"
+    },
+    {
+      "path": "resource/stages/ssstage1.xml",
+      "patch": "resource__stages__ssstage1.xml.pdelta.gz",
+      "source_sha256": "74ffa4d96babc2019b0ad567eb7970638d6460084b9db70129f34440b251a569",
+      "target_sha256": "4d20bc837a636492724b24f117addd3d55f2d60ed71d7281936acfe8e1b7a2f2"
+    },
+    {
+      "path": "resource/stages/stage00.xml",
+      "patch": "resource__stages__stage00.xml.pdelta.gz",
+      "source_sha256": "9bbd6f55f017fa8a8fc6dcb034ad3627e3cb644d1f7f1bbfb7beac9dcaaa419a",
+      "target_sha256": "2a1588d5dbea7488924ddfe6ce0098f0c43022e022c8ba32afb70dd29fc3f772"
+    },
+    {
+      "path": "resource/stages/stage01.xml",
+      "patch": "resource__stages__stage01.xml.pdelta.gz",
+      "source_sha256": "4b7b7e8b64d5da93c2a390d05fb3c8c95a8586eb083915c5dd3e97e9620c33c0",
+      "target_sha256": "b875117f02aa8cd9e16f08ef11f14388d6736dbf5e9e56ac71677dfdb9a8b769"
+    },
+    {
+      "path": "resource/stages/stagescreendata.xml",
+      "patch": "resource__stages__stagescreendata.xml.pdelta.gz",
+      "source_sha256": "65620b9bdf450ce1abfc3c8b7e0896c516a09376498787dcec5ed773cc386f32",
+      "target_sha256": "4c4036852613bb8839ab814b536f9b85e2716cc22040adffb81d4d4149cb1b4f"
+    }
+  ]
+}

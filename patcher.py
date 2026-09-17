@@ -8,6 +8,9 @@ import json
 import re
 import shutil
 import sys
+import tempfile
+
+from saf_tool import parse_saf, repack_saf, unpack_saf
 
 ROOT = Path(__file__).resolve().parent
 BACKUP_DIR = '.turkce_yama_backup'
@@ -117,7 +120,128 @@ def verify(game, game_root):
     print('\nKontrol başarılı. Bu klasör mevcut yama manifestiyle uyumlu.')
 
 
+def apply_patch_operations(base, obj):
+    out = bytearray()
+    for op in obj['operations']:
+        if op['op'] == 'copy':
+            out.extend(base[op['start']:op['start'] + op['length']])
+        elif op['op'] == 'data':
+            out.extend(base64.b64decode(op['data']))
+        else:
+            raise RuntimeError('Bilinmeyen patch işlemi')
+    return bytes(out)
+
+
+def apply_saf_internal_delta(root, game, item):
+    source = root / item['source']
+    target = root / item['target']
+
+    if target.exists() and sha_file(target) == item['target_sha256']:
+        print(f'[OK] Zaten yamalı: {item["target"]}')
+        return
+    if not source.exists():
+        raise RuntimeError(f'Kaynak dosya bulunamadı: {item["source"]}')
+
+    actual = sha_file(source)
+    if actual != item['source_sha256']:
+        raise RuntimeError(
+            f'Sürüm uyuşmuyor: {item["source"]}\n'
+            f'Beklenen: {item["source_sha256"]}\n'
+            f'Bulunan:  {actual}'
+        )
+
+    game_dir = ROOT / 'games' / game
+    archive_manifest_path = game_dir / item['archive_manifest']
+    patch_dir = game_dir / item.get('patch_dir', 'patches')
+
+    if not archive_manifest_path.is_file():
+        raise RuntimeError(f'SAF manifesti bulunamadı: {item["archive_manifest"]}')
+
+    archive_manifest = json.loads(archive_manifest_path.read_text(encoding='utf-8'))
+    if archive_manifest.get('archive') != item['target']:
+        raise RuntimeError('SAF manifestindeki arşiv adı oyun manifestiyle eşleşmiyor.')
+    if archive_manifest.get('original_archive_sha256') != item['source_sha256']:
+        raise RuntimeError('SAF manifestindeki kaynak hash oyun manifestiyle eşleşmiyor.')
+    if archive_manifest.get('target_archive_sha256') != item['target_sha256']:
+        raise RuntimeError('SAF manifestindeki hedef hash oyun manifestiyle eşleşmiyor.')
+
+    backup(root, item['target'])
+
+    with tempfile.TemporaryDirectory(prefix='turkce_yama_saf_') as temp_dir:
+        temp_root = Path(temp_dir)
+        unpacked = temp_root / 'unpacked'
+        rebuilt = temp_root / target.name
+
+        # Kaynak SAF yukarıda SHA-256 ile birebir doğrulandığı için burada
+        # 1933 iç dosyanın pahalı özel hashini tekrar hesaplamıyoruz.
+        unpack_saf(source, unpacked, verify_hashes=False)
+
+        for inner in archive_manifest['files']:
+            inner_path = unpacked / inner['path']
+            if not inner_path.is_file():
+                raise RuntimeError(f'SAF iç dosyası bulunamadı: {inner["path"]}')
+
+            current = inner_path.read_bytes()
+            current_sha = hashlib.sha256(current).hexdigest()
+            if current_sha == inner['target_sha256']:
+                print(f'[OK] SAF iç dosyası zaten yamalı: {inner["path"]}')
+                continue
+            if current_sha != inner['source_sha256']:
+                raise RuntimeError(
+                    f'SAF iç dosya sürümü uyuşmuyor: {inner["path"]}\n'
+                    f'Beklenen: {inner["source_sha256"]}\n'
+                    f'Bulunan:  {current_sha}'
+                )
+
+            patch_path = patch_dir / inner['patch']
+            if not patch_path.is_file():
+                raise RuntimeError(f'SAF delta dosyası bulunamadı: {inner["patch"]}')
+
+            with gzip.open(patch_path, 'rb') as f:
+                obj = json.loads(f.read().decode('utf-8'))
+
+            if obj.get('source_sha256') != inner['source_sha256']:
+                raise RuntimeError(f'SAF delta kaynak hash uyuşmazlığı: {inner["path"]}')
+            if obj.get('target_sha256') != inner['target_sha256']:
+                raise RuntimeError(f'SAF delta hedef hash uyuşmazlığı: {inner["path"]}')
+
+            out = apply_patch_operations(current, obj)
+            if hashlib.sha256(out).hexdigest() != inner['target_sha256']:
+                raise RuntimeError(f'SAF iç patch doğrulaması başarısız: {inner["path"]}')
+
+            inner_path.write_bytes(out)
+            print(f'[SAF] {inner["path"]}')
+
+        # Değişmemiş SAF girdilerinin orijinal Sprout hashleri yeniden
+        # kullanılır. Sonuç arşivi aşağıda bilinen hedef SHA-256 ile birebir
+        # doğrulandığından ikinci tam Sprout-hash turuna gerek yoktur.
+        repack_saf(
+            unpacked,
+            rebuilt,
+            verify_output_hashes=False,
+            reuse_unchanged_hashes=True,
+        )
+        parse_saf(rebuilt, verify_hashes=False)
+
+        rebuilt_sha = sha_file(rebuilt)
+        if rebuilt_sha != item['target_sha256']:
+            raise RuntimeError(
+                f'SAF hedef doğrulaması başarısız: {item["target"]}\n'
+                f'Beklenen: {item["target_sha256"]}\n'
+                f'Bulunan:  {rebuilt_sha}'
+            )
+
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(rebuilt, target)
+
+    print(f'[YAMA] {item["target"]}')
+
+
 def apply_delta(root, game, item):
+    if item.get('type') == 'saf_internal':
+        apply_saf_internal_delta(root, game, item)
+        return
+
     source = root / item['source']
     target = root / item['target']
 
@@ -141,16 +265,7 @@ def apply_delta(root, game, item):
         obj = json.loads(f.read().decode('utf-8'))
 
     base = source.read_bytes()
-    out = bytearray()
-    for op in obj['operations']:
-        if op['op'] == 'copy':
-            out.extend(base[op['start']:op['start'] + op['length']])
-        elif op['op'] == 'data':
-            out.extend(base64.b64decode(op['data']))
-        else:
-            raise RuntimeError('Bilinmeyen patch işlemi')
-
-    out = bytes(out)
+    out = apply_patch_operations(base, obj)
     if hashlib.sha256(out).hexdigest() != item['target_sha256']:
         raise RuntimeError(f'Patch doğrulaması başarısız: {item["target"]}')
 

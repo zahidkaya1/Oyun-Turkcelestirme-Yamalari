@@ -10,10 +10,12 @@ Bu proje oyunların tamamını, orijinal çalıştırılabilir dosyalarını, m�
 |---|---|---|
 | **SuperCow** | Destekleniyor | Türkçe metinler, ara sahne altyazıları, kupa metinleri, bazı görsel yazılar ve sınırlı motor içi metin değişiklikleri |
 | **Jardinains 2!** | Destekleniyor | Türkçe arayüz/metinler, Türkçe karakter uyumluluğu ve Türkçeleştirilmiş yardım sayfası |
+| **Feeding Frenzy** | Destekleniyor | Türkçe arayüz, bölüm ve bilgi metinleri, bitmap fontlarda Türkçe karakter desteği ve Türkçeleştirilmiş ana menü görselleri |
+| **Feeding Frenzy 2** | Destekleniyor | Türkçe arayüz, hikâye ve bölüm girişleri, 100 eğlenceli bilgi, bitmap font uyarlamaları, Türkçeleştirilmiş arayüz görselleri ve açılış metni |
 
 ## Windows için kolay kullanım
 
-**v0.2.0 ile birlikte grafik arayüzlü Windows yama yöneticisi eklendi.**
+**v0.4.0 ile birlikte Feeding Frenzy 2 desteği de grafik arayüzlü Windows yama yöneticisine eklendi.**
 
 GitHub Releases bölümünden:
 
@@ -61,6 +63,8 @@ Bu komut oyun dosyalarını değiştirmez:
 ```powershell
 python patcher.py verify supercow "C:\Oyunlar\SuperCow"
 python patcher.py verify jardinains2 "C:\Oyunlar\Jardinains 2!"
+python patcher.py verify feedingfrenzy1 "C:\Oyunlar\Feeding Frenzy"
+python patcher.py verify feedingfrenzy2 "C:\Oyunlar\Feeding Frenzy 2"
 ```
 
 ### Türkçe yamayı kur
@@ -68,6 +72,8 @@ python patcher.py verify jardinains2 "C:\Oyunlar\Jardinains 2!"
 ```powershell
 python patcher.py install supercow "C:\Oyunlar\SuperCow"
 python patcher.py install jardinains2 "C:\Oyunlar\Jardinains 2!"
+python patcher.py install feedingfrenzy1 "C:\Oyunlar\Feeding Frenzy"
+python patcher.py install feedingfrenzy2 "C:\Oyunlar\Feeding Frenzy 2"
 ```
 
 ### Yamayı kaldır
@@ -75,6 +81,8 @@ python patcher.py install jardinains2 "C:\Oyunlar\Jardinains 2!"
 ```powershell
 python patcher.py restore supercow "C:\Oyunlar\SuperCow"
 python patcher.py restore jardinains2 "C:\Oyunlar\Jardinains 2!"
+python patcher.py restore feedingfrenzy1 "C:\Oyunlar\Feeding Frenzy"
+python patcher.py restore feedingfrenzy2 "C:\Oyunlar\Feeding Frenzy 2"
 ```
 
 Değiştirilen mevcut dosyalar oyun klasöründeki `.turkce_yama_backup` dizinine yedeklenir. Geri yükleme tamamlandığında yedek klasörü temizlenir.
@@ -83,6 +91,8 @@ Değiştirilen mevcut dosyalar oyun klasöründeki `.turkce_yama_backup` dizinin
 
 - [`games/supercow/README.md`](games/supercow/README.md)
 - [`games/jardinains2/README.md`](games/jardinains2/README.md)
+- [`games/feedingfrenzy1/README.md`](games/feedingfrenzy1/README.md)
+- [`games/feedingfrenzy2/README.md`](games/feedingfrenzy2/README.md)
 
 ## Proje yapısı
 
@@ -90,8 +100,11 @@ Değiştirilen mevcut dosyalar oyun klasöründeki `.turkce_yama_backup` dizinin
 Oyun-Turkcelestirme-Yamalari/
 ├── games/
 │   ├── supercow/
-│   └── jardinains2/
+│   ├── jardinains2/
+│   ├── feedingfrenzy1/
+│   └── feedingfrenzy2/
 ├── tools/
+├── saf_tool.py
 ├── gui.py
 ├── patcher.py
 ├── README.md
@@ -100,7 +113,7 @@ Oyun-Turkcelestirme-Yamalari/
 └── LICENSE-CODE.txt
 ```
 
-Her oyun kendi `manifest.json`, açıklama dosyası ve delta yama verileriyle bağımsız şekilde tutulur. Yeni Türkçeleştirmeler ileride aynı yapı altında eklenebilir.
+Her oyun kendi `manifest.json`, açıklama dosyası ve delta yama verileriyle bağımsız şekilde tutulur. Feeding Frenzy gibi SAF tabanlı oyunlarda iç dosya deltaları yerelde uygulanır ve arşiv yeniden paketlenir; tam oyun arşivi depoda tutulmaz.
 
 ## Geliştirici için Windows EXE oluşturma
 
