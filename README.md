@@ -15,7 +15,7 @@ Bu proje oyunların tamamını, orijinal çalıştırılabilir dosyalarını, m�
 
 ## Windows için kolay kullanım
 
-**v0.4.0 ile birlikte Feeding Frenzy 2 desteği de grafik arayüzlü Windows yama yöneticisine eklendi.**
+**v0.3.0 ile birlikte Feeding Frenzy 2 desteği de grafik arayüzlü Windows yama yöneticisine eklendi.**
 
 GitHub Releases bölümünden:
 

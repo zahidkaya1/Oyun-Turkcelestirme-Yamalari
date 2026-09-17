@@ -1,7 +1,7 @@
 {
   "game": "Feeding Frenzy 2",
   "version": "1.0",
-  "patch_version": "0.4.0",
+  "patch_version": "0.3.0",
   "archive": "FF2.saf",
   "original_archive_sha256": "177fb12081b9157e234b604c1b6fc25445133365a24eee28564047f204fd8983",
   "target_archive_sha256": "91b79204b5ebcc5e39b97db54411c85c4befd182f67bb30a6da76964e73bbd43",

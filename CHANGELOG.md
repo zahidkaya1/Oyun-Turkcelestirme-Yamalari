@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.4.0
+## 0.3.0
 - Feeding Frenzy 2 v1.0 için Türkçe yama desteği eklendi.
 - Ana menü, kullanıcı ekranları, seçenekler, duraklatma/oyun sonu ekranları ve HUD Türkçeleştirildi.
 - Bölüm girişleri, bölüm adları ve hikâye metinleri Türkçeleştirildi; bölüm başlıklarının kaybolmasına yol açan XML `Ş`/`&` kaçış sorunu giderildi.
@@ -11,9 +11,8 @@
 - SAF kurulum performansı iyileştirildi: SHA-256 ile doğrulanmış kaynak arşivlerde değişmeyen iç dosyaların mevcut Sprout hashleri yeniden kullanılıyor; hedef arşiv yine bilinen SHA-256 ile birebir doğrulanıyor.
 - `FeedingFrenzyTwo.exe` içindeki `LOADING` metni aynı uzunlukta `BASLIYO` metnine yalnızca delta patch ile dönüştürülüyor; tam EXE dağıtılmıyor.
 - Feeding Frenzy 2 grafik arayüzde dinamik oyun listesine dahil edildi.
-- Uygulama sürümü v0.4.0 olarak güncellendi.
+- Uygulama sürümü v0.3.0 olarak güncellendi.
 
-## 0.3.0
 - Feeding Frenzy 5.7.18.1 için Türkçe yama desteği eklendi.
 - Feeding Frenzy ana menüsü, arayüz metinleri, bölüm başlangıç/bitiş metinleri ve bilgi metinleri Türkçeleştirildi.
 - Eski bitmap font atlaslarına Türkçe karakter uyarlamaları eklendi.
